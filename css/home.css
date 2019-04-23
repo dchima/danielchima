@@ -11,7 +11,7 @@ img.logo{
   position: fixed;
   top: 10px;
   left: 10px;
-  max-width: 100px;
+  max-width: 120px;
   height: auto;
   opacity: 1;
 }
@@ -25,7 +25,7 @@ img.logo{
 
 }
 .bg1 {
-  background-image: url("../images/pic6.jpg");
+  background-image: url("../images/pic7.jpg");
   height: 100%;
 }
 
@@ -38,9 +38,37 @@ img.logo{
 
 }
 .bg2 {
-  background-image: url("../images/pic5.jpg");
+  background-image: url("../images/pic10.jpg");
   height: 100%;
 }
+
+.bg3 {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg3 {
+  background-image: url("../images/pic12.jpg");
+  height: 100%;
+}
+
+.bg4 {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg4 {
+  background-image: url("../images/pic8.jpg");
+  height: 100%;
+}
+
+
 
 *,
 :after,
