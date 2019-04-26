@@ -11,7 +11,22 @@ img.logo{
   position: fixed;
   top: 10px;
   left: 10px;
-  max-width: 120px;
+  max-width: 95px;
+  height: auto;
+  opacity: 1;
+}
+
+img.about{
+  position: fixed;
+  bottom: 15px;
+  left: 19px;
+  height: auto;
+  opacity: 1;
+}
+img.mail{
+  position: fixed;
+  bottom: 15px;
+  left: 66px;
   height: auto;
   opacity: 1;
 }
@@ -64,9 +79,10 @@ img.logo{
 
 }
 .bg4 {
-  background-image: url("../images/pic8.jpg");
+  background-image: url("../images/pic13.jpg");
   height: 100%;
 }
+
 
 
 
@@ -136,3 +152,93 @@ img.logo{
     transform: translateY(-5px);
   }
 }
+
+
+.instagram{
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+  margin-left: -16px;
+  display: block;
+
+}.instagram:hover{opacity: 0.5;}
+
+.twitter{
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  margin-left: -16px;
+  display: block;
+
+}.twitter:hover{opacity: 0.5;}
+
+.linkedin{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+
+}.linkedin:hover{opacity: 0.5;}
+
+.youtube{
+  position: absolute;
+  bottom: 10px;
+  left: 55%;
+  margin-left: -16px;
+  display: block;
+
+}.youtube:hover{opacity: 0.5;}
+
+.github{
+  position: absolute;
+  bottom: 10px;
+  left: 60%;
+  margin-left: -16px;
+  display: block;
+
+}.github:hover{opacity: 0.5;}
+
+.bhc{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  top: 10%;
+  left: 14%;
+  margin-left: -16px;
+  display: block;
+
+}.bhc:hover{opacity: 0.5;}
+
+.essex{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  top: 12%;
+  left: 34%;
+  margin-left: -16px;
+  display: block;
+
+}.essex:hover{opacity: 0.5;}
+
+.nottingham{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  top: 10%;
+  left: 58%;
+  margin-left: -16px;
+  display: block;
+
+}.nottingham:hover{opacity: 0.5;}
+
+.leeds{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  top: 12%;
+  left: 80%;
+  margin-left: -16px;
+  display: block;
+
+}.leeds:hover{opacity: 0.5;}
