@@ -1,7 +1,12 @@
-body, html {
+* {
+  box-sizing: border-box; /* so we don't have to worry about padding affecting width */
+}
+
+body, html{
   height: 100%;
+  padding: 0;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: normal 16px/1.2 sans-serif;
   color: #777;
 }
 
@@ -11,62 +16,62 @@ img.logo{
   position: fixed;
   top: 10px;
   left: 10px;
-  max-width: 120px;
+  max-width: 95px;
   height: auto;
   opacity: 1;
 }
 
-.bg1 {
+img.about{
+  position: fixed;
+  top: 15px;
+  right: 19px;
+  height: auto;
+  opacity: 1;
+}
+img.mail{
+  position: fixed;
+  top: 15px;
+  right: 66px;
+  height: auto;
+  opacity: 1;
+}
+
+#room1, #room2, #room3, #room4 {
   position: relative;
   opacity: 0.9;
+  /*background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
 
 }
 .bg1 {
-  background-image: url("../images/pic7.jpg");
+  background-image: url("../images/pic7-1.jpg");
   height: 100%;
 }
 
 .bg2 {
-  position: relative;
-  opacity: 0.9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bg2 {
-  background-image: url("../images/pic10.jpg");
+  background-image: url("../images/pic10-1.jpg");
   height: 100%;
 }
 
 .bg3 {
-  position: relative;
-  opacity: 0.9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bg3 {
-  background-image: url("../images/pic12.jpg");
+  background-image: url("../images/pic8-1.jpg");
   height: 100%;
 }
 
 .bg4 {
-  position: relative;
-  opacity: 0.9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bg4 {
-  background-image: url("../images/pic8.jpg");
+  background-image: url("../images/pic9-1.jpg");
   height: 100%;
 }
+
+/*@media only screen and (max-device-width: 1024px) {
+  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
+    background-attachment: scroll;
+  }
+}*/
 
 
 
@@ -78,21 +83,30 @@ img.logo{
   padding: 0;
 }
 
-.scroll-down {
+.scroll-down1, .scroll-down2, .scroll-down3,
+.scroll-up1, .scroll-up2, .scroll-up3 {
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
   transition: all .5s ease-in 3s;
 }
 
-.scroll-down {
-  position: absolute;
+.scroll-down1,.scroll-down2, .scroll-down3{
+  left: 98%;
   bottom: 30px;
-  left: 50%;
+}
+.scroll-up1,.scroll-up2, .scroll-up3{
+  left: 98%;
+  bottom: 60px;
+}
+
+.scroll-down1, .scroll-down2, .scroll-down3,
+.scroll-up1,.scroll-up2, .scroll-up3 {
+  position: absolute;
+
   margin-left: -16px;
   display: block;
-  width: 32px;
-  height: 32px;
-  border: 2px solid #FFF;
+  width: 26px; height: 26px;
+  border: 2px solid #000;
   background-size: 14px auto;
   border-radius: 50%;
   z-index: 2;
@@ -102,18 +116,29 @@ img.logo{
   transition: all .2s ease-in;
 }
 
-.scroll-down:before {
+
+.scroll-down1:before, .scroll-down2:before, .scroll-down3:before{
+  transform: rotate(-45deg);
+  top: calc(50% - 6px);
+  left: calc(50% - 4px);
+}
+.scroll-up1:before, .scroll-up2:before, .scroll-up3:before{
+  transform: rotate(135deg);
+  top: calc(50% - 3px);
+  left: calc(50% - 4px);
+}
+
+.scroll-down1:before, .scroll-down2:before, .scroll-down3:before,
+.scroll-up1:before, .scroll-up2:before, .scroll-up3:before{
     position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 6px);
-    transform: rotate(-45deg);
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     content: "";
-    border: 2px solid white;
+    border: 2px solid black;
     border-width: 0px 0 2px 2px;
 }
+
 
 @keyframes bounce {
   0%,
@@ -135,4 +160,107 @@ img.logo{
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   }
+}
+
+
+.instagram{
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+  margin-left: -16px;
+  display: block;
+
+}.instagram:hover{opacity: 0.5;}
+
+.twitter{
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  margin-left: -16px;
+  display: block;
+
+}.twitter:hover{opacity: 0.5;}
+
+.linkedin{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+
+}.linkedin:hover{opacity: 0.5;}
+
+.youtube{
+  position: absolute;
+  bottom: 10px;
+  left: 55%;
+  margin-left: -16px;
+  display: block;
+
+}.youtube:hover{opacity: 0.5;}
+
+.github{
+  position: absolute;
+  bottom: 10px;
+  left: 60%;
+  margin-left: -16px;
+  display: block;
+
+}.github:hover{opacity: 0.5;}
+
+
+.bhc, .essex, .nottingham, .leeds{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  margin-left: -16px;
+  display: block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.bhc{
+  bottom: 2%;
+  left: 22%;
+
+}.bhc:hover, .bhc:focus, .bhc:active{
+   -webkit-transform: translateY(-8px);
+transform: translateY(-8px);
+}
+
+.essex{
+  bottom: 4%;
+  left: 36%;
+
+}.essex:hover, .essex:focus, .essex:active{
+   -webkit-transform: translateY(-8px);
+transform: translateY(-8px);
+}
+
+.nottingham{
+  bottom: 0.5%;
+  left: 53%;
+
+} .nottingham:hover, .nottingham:focus, .nottingham:active{
+-webkit-transform: translateY(-8px);
+ transform: translateY(-8px);
+}
+
+
+.leeds{
+  bottom: 7%;
+  left: 68%;
+
+}.leeds:hover, .leeds:focus, .leeds:active {
+
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+
 }
