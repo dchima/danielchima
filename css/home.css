@@ -50,7 +50,7 @@ img.logo{
 
 #room1, #room2, #room3, #room4, #room5 {
   position: relative;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 0.4s ease-in-out;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,9 +258,8 @@ img.logo{
 }
 
 .bhc{
-
-   bottom: 7%;
-  left: 60%;
+   bottom: 7.5%;
+  left: 63.5%;
 
 
 }.bhc:hover, .bhc:focus, .bhc:active{
@@ -271,7 +270,7 @@ transform: translateY(-8px);
 .essex{
 
     bottom: 9%;
-  left: 53%;
+  left: 52%;
 
 
 }.essex:hover, .essex:focus, .essex:active{
@@ -281,7 +280,7 @@ transform: translateY(-8px);
 
 .nottingham{
   bottom: 3%;
-  left: 43%;
+  left: 38%;
 
 } .nottingham:hover, .nottingham:focus, .nottingham:active{
 -webkit-transform: translateY(-8px);
@@ -291,7 +290,7 @@ transform: translateY(-8px);
 
 .leeds{
  bottom: 9%;
-  left: 30%;
+  left: 23%;
 
 }.leeds:hover, .leeds:focus, .leeds:active {
 

@@ -1,44 +1,13 @@
-.menu{
+.menu, .menu2, .menu3, .menu4{
   position: absolute;
+  display: block;
   background:#000;
-  width:1100px;
-  height:450px;
-  padding:5px;
-  left: 10%;
-  top: 20px;
-
+  height:480px;
+  left: 16.5%;
+  top: 10px;
+  -webkit-transition: width 2s;
 }
 
-.menu2{
-  position: absolute;
-  background:#000;
-  width:1100px;
-  height:450px;
-  padding:5px;
-  left: 10%;
-  top: 20px;
-
-}
-.menu3{
-  position: absolute;
-  background: #000;
-  width:1100px;
-  height:450px;
-  padding:5px;
-  left: 10%;
-  top: 20px;
-
-
-}
-.menu4{
-  position: absolute;
-  background:#000;
-  width:1100px;
-  height:450px;
-  padding:5px;
-  left: 10%;
-  top: 20px;
-}
 .about-page{
   position: fixed;
   background-color: #e6e9ef;
