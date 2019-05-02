@@ -1,0 +1,33 @@
+.name{
+  position: absolute;
+  font-family: 'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
+  font-size: 3em;
+  color: #ff9319;
+  left: 40%;
+  top: 2%;
+}
+
+.descr-1{
+  position: absolute;
+  font-family: 'bungee', monospace;
+  font-size: 1.1em;
+  color: black;
+  left: 10%;
+ bottom: 22%;
+}
+.descr-3{
+  position: absolute;
+  font-family: 'bungee', monospace;
+  font-size: 3em;
+  color: black;
+  left: 10%;
+  bottom: 13%;
+}
+.descr-2{
+position: fixed;
+font-family: manjari, monospace;
+font-size: 1em;
+color: black;
+left: 40%;
+top: 20%;
+}
