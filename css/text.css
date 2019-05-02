@@ -1,0 +1,65 @@
+.name{
+  position: absolute;
+  font-family: 'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
+  font-size: 3em;
+  color: #ff9319;
+  left: 40%;
+  top: 2%;
+}
+.hood{
+  position: absolute;
+  font-family: 'Days One', monospace;
+  font-size: 3em;
+    color: #000;
+    top: 3%;
+    left:8.3%;
+}
+
+.descr-1{
+  position: absolute;
+  font-family: 'bungee', monospace;
+  font-size: 1.1em;
+  color: black;
+  left: 10%;
+ bottom: 22%;
+}
+.descr-3{
+  position: absolute;
+  font-family: 'bungee', monospace;
+  font-size: 3em;
+  color: black;
+  left: 9.8%;
+  bottom: 13%;
+}
+.about-desc{
+position: fixed;
+font-family: manjari, monospace;
+font-size: 1em;
+color: black;
+left: 40%;
+top: 20%;
+}
+.hey{
+  position: fixed;
+  font-family: manjari, monospace;
+  font-size: 5em;
+  font-weight: bold;
+  color: black;
+  left: 14%;
+  top: 16%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.academic{
+  position: absolute;
+  font-family: manjari, monospace;
+  font-size: 5em;
+  font-weight: bold;
+  color: #edf902;
+  left: 15%;
+  top:6%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}

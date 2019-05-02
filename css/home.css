@@ -10,50 +10,65 @@ body, html{
   color: #777;
 }
 
-
+img.profile-1{
+  position: fixed;
+  top: 17%;
+  left: 20%;
+  max-width: 20%;
+  height: auto;
+}
 
 img.logo{
   position: fixed;
-  top: 10px;
+  bottom: 10px;
   left: 10px;
   max-width: 95px;
   height: auto;
   opacity: 1;
 }
 
-img.about{
+.about{
   position: fixed;
   top: 15px;
   right: 19px;
   height: auto;
-  opacity: 1;
 }
-img.mail{
+.exit{
   position: fixed;
-  top: 15px;
-  right: 66px;
+  top: 13px;
+  right: 30px;
   height: auto;
-  opacity: 1;
 }
 
-#room1, #room2, #room3, #room4 {
+.mail{
+  position: fixed;
+  bottom: 25%;
+  left: 42%;;
+  height: auto;
+}
+
+
+#room1, #room2, #room3, #room4, #room5 {
   position: relative;
-  opacity: 0.9;
-  /*background-attachment: fixed;*/
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
-
-}
+  /*background-attachment: fixed;*/
+}#room1:hover, #room2:hover, #room3:hover, #room4:hover, #room5:hover{
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+  }
 .bg1 {
   background-image: url("../images/pic7-1.jpg");
   height: 100%;
 }
 
 .bg2 {
-  background-image: url("../images/pic10-1.jpg");
+  background-image: url("../images/pic15.jpg");
   height: 100%;
 }
 
@@ -63,6 +78,12 @@ img.mail{
 }
 
 .bg4 {
+  background-image: none;
+  background-color: #fff;
+  height: 100%;
+}
+
+.bg5 {
   background-image: url("../images/pic9-1.jpg");
   height: 100%;
 }
@@ -83,32 +104,29 @@ img.mail{
   padding: 0;
 }
 
-.scroll-down1, .scroll-down2, .scroll-down3,
-.scroll-up1, .scroll-up2, .scroll-up3 {
+.scroll-down1, .scroll-down2, .scroll-down3, .scroll-down4,
+.scroll-up1, .scroll-up2, .scroll-up3, .scroll-up4 {
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
   transition: all .5s ease-in 3s;
 }
 
-.scroll-down1,.scroll-down2, .scroll-down3{
+.scroll-down1,.scroll-down2, .scroll-down3, .scroll-down4{
   left: 98%;
-  bottom: 30px;
+  bottom: 45%;
 }
-.scroll-up1,.scroll-up2, .scroll-up3{
+.scroll-up1,.scroll-up2, .scroll-up3, .scroll-up4{
   left: 98%;
-  bottom: 60px;
+  top: 45%;
 }
 
-.scroll-down1, .scroll-down2, .scroll-down3,
-.scroll-up1,.scroll-up2, .scroll-up3 {
+.scroll-down1, .scroll-down2, .scroll-down3, .scroll-down4,
+.scroll-up1, .scroll-up2, .scroll-up3, .scroll-up4 {
   position: absolute;
 
   margin-left: -16px;
   display: block;
   width: 26px; height: 26px;
-  border: 2px solid #000;
-  background-size: 14px auto;
-  border-radius: 50%;
   z-index: 2;
   -webkit-animation: bounce 2s infinite 2s;
   animation: bounce 2s infinite 2s;
@@ -117,26 +135,39 @@ img.mail{
 }
 
 
-.scroll-down1:before, .scroll-down2:before, .scroll-down3:before{
+.scroll-down1:before, .scroll-down2:before, .scroll-down3:before, .scroll-down4:before{
   transform: rotate(-45deg);
   top: calc(50% - 6px);
   left: calc(50% - 4px);
 }
-.scroll-up1:before, .scroll-up2:before, .scroll-up3:before{
+.scroll-up1:before, .scroll-up2:before, .scroll-up3:before, .scroll-up4:before{
   transform: rotate(135deg);
   top: calc(50% - 3px);
   left: calc(50% - 4px);
 }
 
-.scroll-down1:before, .scroll-down2:before, .scroll-down3:before,
-.scroll-up1:before, .scroll-up2:before, .scroll-up3:before{
+.scroll-down1:before, .scroll-down2:before, .scroll-down4:before,
+.scroll-up1:before, .scroll-up3:before{
     position: absolute;
     display: block;
     width: 8px;
     height: 8px;
     content: "";
-    border: 2px solid black;
-    border-width: 0px 0 2px 2px;
+    border: 2px solid #000;
+
+   border-width: 0px 0 2px 2px;
+}
+
+.scroll-down3:before, .scroll-up2:before,
+.scroll-up4:before{
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    content: "";
+   border: 2px solid #fff;
+   border-width: 0px 0 2px 2px;
+
 }
 
 
@@ -227,8 +258,10 @@ img.mail{
 }
 
 .bhc{
-  bottom: 2%;
-  left: 22%;
+
+   bottom: 7%;
+  left: 60%;
+
 
 }.bhc:hover, .bhc:focus, .bhc:active{
    -webkit-transform: translateY(-8px);
@@ -236,8 +269,10 @@ transform: translateY(-8px);
 }
 
 .essex{
-  bottom: 4%;
-  left: 36%;
+
+    bottom: 9%;
+  left: 53%;
+
 
 }.essex:hover, .essex:focus, .essex:active{
    -webkit-transform: translateY(-8px);
@@ -245,8 +280,8 @@ transform: translateY(-8px);
 }
 
 .nottingham{
-  bottom: 0.5%;
-  left: 53%;
+  bottom: 3%;
+  left: 43%;
 
 } .nottingham:hover, .nottingham:focus, .nottingham:active{
 -webkit-transform: translateY(-8px);
@@ -255,8 +290,8 @@ transform: translateY(-8px);
 
 
 .leeds{
-  bottom: 7%;
-  left: 68%;
+ bottom: 9%;
+  left: 30%;
 
 }.leeds:hover, .leeds:focus, .leeds:active {
 
