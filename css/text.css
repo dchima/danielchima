@@ -65,17 +65,31 @@ top: 20%;
 }
 .journey{
   position: absolute;
-  font-family: manjari, monospace;
-  font-size: 5em;
-  font-weight: bold;
-  color: #08edca;
-  left: 45%;
-  top:18%;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+   font-family: manjari, monospace;
+   font-size: 4.4em;
+   font-weight: bold;
+   color: #00a4e5;
+   left: 10%;
+   top: 3%;
+   -webkit-writing-mode: vertical-rl;
+   writing-mode: vertical-rl;
+   transform: rotate(180deg);
 
 }
+.room4-content{
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.9em;
+  top: 10%;
+  left: 20%;
+}.room4-content2{
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+
 
 .academic{
   position: absolute;
@@ -88,4 +102,14 @@ top: 20%;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+.my-links:link{
+  color: #00a4e5;
+} .my-links:visited{
+  color: blue;
+}.my-links:hover{
+  color: green;
+}.my-links:active{
+  color: green;
 }
