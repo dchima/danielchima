@@ -6,7 +6,7 @@ var pop4= false;
 $(function(){
   $('.leeds').click(function(){
     if(pop1==false){
-      $('.menu').css({"opacity":"1","width":"1050px","background":"#000"});
+      $('.menu').css({"opacity":"1","width":"900px","background":"#000"});
       $('.menu2').css("width","0px"); pop2=false;
       $('.menu3').css("width","0px"); pop3=false;
       $('.menu4').css("width","0px"); pop4=false;
@@ -21,7 +21,7 @@ $(function(){
 $(function(){
   $('.nottingham').click(function() {
     if(pop2==false){
-      $('.menu2').css({"opacity":"1","width":"1050px","background":"#fff"});
+      $('.menu2').css({"opacity":"1","width":"900px","background":"#cadcf9"});
       $('.menu').css("width","0px"); pop1=false;
       $('.menu3').css("width","0px"); pop3=false;
       $('.menu4').css("width","0px"); pop4=false;
@@ -36,7 +36,7 @@ $(function(){
 $(function(){
   $('.essex').click(function() {
     if(pop3==false){
-      $('.menu3').css({"opacity":"1","width":"1050px","background":"#46ed09"});
+      $('.menu3').css({"opacity":"1","width":"900px","background":"#46ed09"});
       $('.menu').css("width","0px"); pop1=false;
       $('.menu2').css("width","0px"); pop2=false;
       $('.menu4').css("width","0px"); pop4=false;
@@ -51,7 +51,7 @@ $(function(){
 $(function(){
   $('.bhc').click(function() {
     if(pop4==false){
-      $('.menu4').css({"opacity":"1","width":"1050px","background":"#912"});
+      $('.menu4').css({"opacity":"1","width":"900px","background":"#912"});
       $('.menu').css("width","0px"); pop1=false;
       $('.menu2').css("width","0px"); pop2=false;
       $('.menu3').css("width","0px"); pop3=false;

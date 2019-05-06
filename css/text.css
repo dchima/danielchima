@@ -6,12 +6,19 @@
   left: 40%;
   top: 2%;
 }
+.name-note{
+  position: absolute;
+  font-size: .7em;
+  right: 26%;
+  color: #2eff00;
+  top: 29%
+}
 .hood{
   position: absolute;
   font-family: 'Days One', monospace;
-  font-size: 3em;
+  font-size: 3.3em;
     color: #000;
-    top: 3%;
+    top: 5%;
     left:8.3%;
 }
 
@@ -40,10 +47,49 @@ left: 40%;
 top: 20%;
 }
 
-.bhc-content, .leeds-content, .notts-content, .essex-content{
-  position: inherit;
+.portal-content{
+  position: absolute;
   font-family: manjari, monospace;
-  font-size: 1em;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: black;
+  top: 55%;
+  left: 8%;
+}
+.proj-title{
+  position: absolute;
+  font-weight: bold;
+  color: #ff6100;
+  top: 18%;
+  left: 25%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}.photog-title{
+  position: absolute;
+  font-weight: bold;
+  color: #ff6100;
+  top: 15.5%;
+  right: 11%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}.lit-title{
+  position: absolute;
+  font-weight: bold;
+  color: #ff6100;
+  top: 16.5%;
+  left: 56%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.bhc-content, .leeds-content, .notts-content, .essex-content{
+  position: absolute;
+  font-family: manjari, monospace;
+  font-size: .9em;
   top: 10%;
 }
 .leeds-content, .bhc-content{
@@ -65,27 +111,71 @@ top: 20%;
 }
 .journey{
   position: absolute;
-  font-family: manjari, monospace;
-  font-size: 5em;
-  font-weight: bold;
-  color: #08edca;
-  left: 45%;
-  top:18%;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+   font-family: manjari, monospace;
+   font-size: 4.4em;
+   font-weight: bold;
+   color: #00a4e5;
+   left: 10%;
+   top: 10%;
+   -webkit-writing-mode: vertical-rl;
+   writing-mode: vertical-rl;
+   transform: rotate(180deg);
 
 }
+.room4-content{
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.9em;
+  top: 15%;
+  left: 20%;
+}.room4-content2{
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}.room4-content3{
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+
 
 .academic{
   position: absolute;
   font-family: manjari, monospace;
   font-size: 5em;
   font-weight: bold;
-  color: #edf902;
-  left: 15%;
-  top:6%;
+  color: #ff5000;
+  left: 11%;
+  top:20%;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+.my-links:link{
+  color: #00a4e5;
+} .my-links:visited{
+  color: blue;
+}.my-links:hover{
+  color: green;
+}.my-links:active{
+  color: green;
+}
+.footer-quote{
+  position: absolute;
+  color: #00ff94;
+  font-size: 4em;
+  top: 50%;
+  left: 20%;
+}
+.copyright{
+  position: absolute;
+  bottom: 45%;
+  left: 44%;
+  font-size: .8em;
+  color: black;
 }

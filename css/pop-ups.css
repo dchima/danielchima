@@ -10,11 +10,19 @@
   float: left;
   overflow: hidden;
   background:#000;
-  height:480px;
+  height:400px;
   width: 1px;
   opacity: 0;
   left: 16.5%;
-  top: 10px;
+  top: 21.5%;
+}
+.academic-pic{
+  position: absolute;
+  background-image: url("../images/pic8-2.jpg");
+  height:400px;
+  width: 900px;
+  left: 16.5%;
+  top: 21.5%;
 }
 
 .about-page{
@@ -28,9 +36,9 @@
 
 .portals{
   position: absolute;
-  background:#fcb91b;
-  width:900px;
-  height:570px;
+  background-image: url("../images/pic19.jpg");
+  width:782px;
+  height:738px;
   padding:5px;
   left: 33%;
   top: 4%;
