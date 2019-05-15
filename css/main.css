@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box; /* so we don't have to worry about padding affecting width */
+}
+
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+}
+/*
+.fader{
+  padding: 5px;
+  margin_bottom: 1-px;
+  opacity: 0;
+}*/
+body, html{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font: normal 16px/1.2 sans-serif;
+  color: #777;
+}
+
+img.profile-1{
+  position: fixed;
+  top: 17%;
+  left: 20%;
+  max-width: 20%;
+  height: auto;
+}
+
+img.logo{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  max-width: 95px;
+  height: auto;
+  opacity: 1;
+}
+
+.about{
+  position: fixed;
+  top: 15px;
+  right: 19px;
+  height: auto;
+}
+.exit{
+  position: fixed;
+  top: 13px;
+  right: 30px;
+  height: auto;
+}
+
+.mail{
+  position: fixed;
+  bottom: 25%;
+  left: 42%;;
+  height: auto;
+}
+
+
+#room1, #room5 {
+  position: relative;
+  opacity:  0.9;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  /*background-attachment: fixed;*/
+}#room1:hover, #room2:hover, #room3:hover, #room4:hover, #room5:hover{
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+  }
+.bg1 {
+  background-image: url("../images/pic7-1.jpg");
+  height: 100%;
+}
+
+#room2 {
+  position: relative;
+  background-color: #fff;
+  height:145vh ;
+  width:
+
+}.bg3{
+   position: relative;
+  background-color: #fff;
+  height: 110vh;
+}
+
+.bg4 {
+   position: relative;
+  background-image: none;
+  background-color: #fff;
+   width: 100%;
+  height: 100vh;
+}
+
+.bg5 {
+  background-image: url("../images/pic17.jpg");
+  height: 100%;
+}
+
+/*
+@media only screen and (max-device-width: 1024px) {
+  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
+    background-attachment: scroll;
+  }
+}*/
+
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.uni-logos{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.social-family{
+  position:absolute;
+  bottom: 25%;
+  height: 50px;
+  width: 100%;
+}
+
+
+.instagram{
+  position:absolute;
+  bottom: 30%;
+  left: 37%;
+  margin-left: -16px;
+  display: block;
+
+}.instagram:hover{opacity: 0.5;}
+
+.twitter{
+  position: absolute;
+  bottom: 30%;
+  left: 42%;
+  margin-left: -16px;
+  display: block;
+
+}.twitter:hover{opacity: 0.5;}
+
+.linkedin{
+  position: absolute;
+  bottom: 30%;
+  left: 47%;
+  margin-left: -16px;
+  display: block;
+
+}.linkedin:hover{opacity: 0.5;}
+
+.youtube{
+  position: absolute;
+  bottom: 30%;
+  left: 52%;
+  margin-left: -16px;
+  display: block;
+
+}.youtube:hover{opacity: 0.5;}
+
+.github{
+  position: absolute;
+  bottom: 30%;
+  left: 57%;
+  margin-left: -16px;
+  display: block;
+
+}.github:hover{opacity: 0.5;}
+
+.mail-footer{
+  position: absolute;
+  bottom: 30%;
+  left: 62%;
+  margin-left: -16px;
+  display: block;
+
+}.mail-footer:hover{opacity: 0.5;}
+
+.bhc, .essex, .nottingham, .leeds{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  margin-left: -16px;
+  display: block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.bhc{
+   top: 10%;
+  left: 73.5%;
+
+
+}.bhc:hover, .bhc:focus, .bhc:active{
+   -webkit-transform: translateY(-8px);
+transform: translateY(-8px);
+}
+
+.essex{
+    top: 12%;
+  left: 59%;
+
+
+}.essex:hover, .essex:focus, .essex:active{
+   -webkit-transform: translateY(-8px);
+transform: translateY(-8px);
+}
+
+.nottingham{
+  top:6.5%;
+  left: 41%;
+
+} .nottingham:hover, .nottingham:focus, .nottingham:active{
+-webkit-transform: translateY(-8px);
+ transform: translateY(-8px);
+}
+
+
+.leeds{
+  top :12%;
+  left: 23%;
+
+}.leeds:hover, .leeds:focus, .leeds:active {
+
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+
+}
+.proj-link, .photog-link, .lit-link{
+  position: absolute;
+  width: 10px;
+  height: auto;
+  margin-left: -16px;
+  display: block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+}
+.proj-link:hover, .proj-link:focus, .proj-link:active{
+  -webkit-transform: translateY(-15px);
+ transform: translateY(-15px);
+}.proj-link{top:20%; left: 50%;}
+.photog-link:hover, .photog-link:focus, .photog-link:active{
+  -webkit-transform: translateY(-15px);
+ transform: translateY(-15px);
+}.photog-link{top: 20%; left: 50%;}
+.lit-link:hover, .lit-link:focus, .lit-link:active{
+ -webkit-transform: translateY(-15px);
+ transform: translateY(-15px);
+}.lit-link{top:20%; left:50%;}
+
+.portal-logos{
+  position: absolute;
+  height: 600px;
+  width: 300px;
+  margin: 10px;
+}
+
+.proj-logo{
+  position: absolute;
+  height: 100px;
+  width: 100px;;
+  top:20%; left:90%;
+
+}
+.photog-logo{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 49%; left: 90%;
+}
+.lit-logo{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top:80%; left:90%;
+}
+
+/*PROJECTS HOME PAGE*/
+.proj-content{
+  position: relative;
+  overflow: hidden;
+  /*height: 130px;*/
+  height: 25vh;
+  width: 100%;
+  -webkit-transition: height 3s ease;
+-moz-transition: height 3s ease;
+-o-transition: height 3s ease;
+-ms-transition: height 3s ease;
+  transition: height 3s ease;
+}
+
+/*images*/
+.content1-img1{
+  position: absolute;
+  height: auto;
+  width: 300px;
+  right: 3%;
+  top: 14%;
+}
+.content2-img1{
+  position: absolute;
+  height: auto;
+  width: 500px;
+  right: 3%;
+  top: 14%;
+}
+.content3-img1{
+  position: absolute;
+  height: auto;
+  width: 500px;
+  left: -8%;
+  top: 20%;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.content3-img2{
+  position: absolute;
+  height: 400px;
+  width: auto;
+  right: 1%;
+  top: 15%;
+}
+.content4-img1{
+  position: absolute;
+  height: 300px;
+  width: auto;
+  left: -0%;
+  top: -20%;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(-40deg);
+}
+.content4-img2{
+  position: absolute;
+  height: 300px;
+  width: auto;
+  right: -1%;
+  bottom: 0%;
+}
+
+
+/*content sectons*/
+.content1{
+  background-color: black;
+}
+.content2{
+  background-color: #4286f4;
+}
+.content3{
+  background-color: #eff3f4;
+}
+.content4{
+  background-color: #ff4300;
+}
+.content5{
+  background-color: #1dff00;
+}
+
+/*wrapper page for content texts and pictures*/
+#content1-wrapper, #content2-wrapper, #content3-wrapper, #content4-wrapper, #content5-wrapper{
+display: none;
+height: inherit;
+width: inherit;
+}
