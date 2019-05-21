@@ -4,7 +4,7 @@
     <meta name="description" content="projects index page of my website" />
     <meta name="author" content="Chima Daniel Nnadika" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Days+One|Artifika|Josefin+Sans|Aleo|Andada|Bitter|Baloo+Bhai|Bubbler+One|Bungee|Bungee+Shade|Caveat|Cuprum|Dosis|Esteban|Fira+Mono|Holtwood+One+SC|Inconsolata|Julius+Sans+One|Just+Another+Hand|Libre+Barcode+39|Londrina+Outline|Major+Mono+Display|Maven+Pro|Monoton|Nanum+Gothic+Coding|Nixie+One|Notable|Orbitron|Plaster|Rubik+Mono+One|Roboto+Mono|Satisfy|Signika|Source+Code+Pro|Staatliches|Sura|Thasadith|Unica+One|Yanone+Kaffeesatz" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Days+One|Artifika|Josefin+Sans|Aleo|Andada|Bitter|Baloo+Bhai|Bubbler+One|Bungee|Bungee+Shade|Cutive+Mono|Caveat|Cuprum|Dosis|Esteban|Fira+Mono|Holtwood+One+SC|Inconsolata|IBM+Plex+Mono|Julius+Sans+One|Just+Another+Hand|Libre+Barcode+39|Londrina+Outline|Montserrat+Alternates|Major+Mono+Display|Maven+Pro|Monoton|Nanum+Gothic+Coding|Nixie+One|Notable|Oxygen+Mono|Orbitron|Plaster|Rubik+Mono+One|Roboto+Mono|Satisfy|Signika|Source+Code+Pro|Staatliches|Sura|Thasadith|Unica+One|Yanone+Kaffeesatz" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/pop-ups.css">
     <link rel="stylesheet" type="text/css" href="../css/text.css">
@@ -25,30 +25,39 @@
           to demonstrate the versatility of the DE1-SoC device.
           the embbeded system utilizes various hardware periph-
           erals on the board.
+          The entire system was designed using the C programming
+          framework.
 
-          The gaming environment was programmed using C, and it
-          consists of two games; 'Hero'. which uses the avengers
-          marvel characters, and a classic 'Snake' game.
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          The environment consists of two games; 'Hero'.
+          which uses the avengers marvel characters, and a classic
+          'Snake' game.
+
+          Hero is a one player shooter designed to test a player's
+          speed and reaction time. The player had five lives and
+          is expected to dodge incoming enemmy ships. A life is
+          lost if an enemy ship collides with the player avatar.
+
+          Snake is a single player classic (remember nokia snake)
+          in chich the player manoeuvers a constantly moving Snake
+          within its environment. The snake grows as it eats food
+          randomly spawned, and crashed when it collides with an
+          obstacle or itself.
+
+
+
         </pre>
 
         <pre id="c1-p2">
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          To actualize our goals of creating a gaming environment on a
+          bare metal system, several code architectures were utilized in
+          the process. For timing operations, we made use of HPS private
+          timers for task scheduling. HPS_IRQ interrupts were employed
+          for control of the audio functions and the I/O peripherals
+          of the system.
+
+          An object oriented programming approach
+          was also used to create, and populate the environment with, enemmy
+          ships and food objects (using C struct).
           aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
         </pre>
@@ -236,6 +245,8 @@
         </pre>
 
       </div>
+
+      <img class="content5-img1" src="../images/screen2.png" alt="image7">
       <h2 id="content5-title">
         iOS APPLICATION DESIGN</h2>
     </div>
