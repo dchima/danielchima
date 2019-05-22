@@ -1,19 +1,57 @@
+
+/*********************HOME PAGE*********************/
+/*PAGE ONE*/
+
+.name-wrapper{
+  position: relative;
+  width: 100%;
+
+}
 .name{
-  position: absolute;
+  position: relative;
   font-family: 'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
-  font-size: 7em;
+  font-size: 6em;
   color: #f61024;
-  left: 10%;
+  width: 40%;
   top: 5%;
+
 }
 .name-note{
-  position: absolute;
+  position:relative;
+  font-family: manjari, monospace
   font-size: .7em;
   font-weight: bold;
-  left: 28%;
+  left: 32%;
   color: #f61024;
-  top: 35%;
 }
+.descr{position: relative; top:10%; left:10%;width: 100%;}
+
+.descr-1{
+  position: relative;
+  font-family: 'bungee', monospace;
+  font-size: 1.1em;
+  color: black;
+  left: 10%;
+ bottom: 22%;
+}
+.descr-2{
+  position: relative;
+  font-family: 'bungee', monospace;
+  font-size: 3em;
+  color: black;
+  left: 9.8%;
+  bottom: 13%;
+}
+
+@media only screen and (max-width: 768px){
+  .name{font-size: 3.5em;top: 7%;}
+  .name-note{width:100%; top:6%;}
+  .descr{position: relative; top:10%; width: 100%;}
+  .descr-2{font-size: 2em;}
+
+}
+
+/*PAGE 2*/
 .hood{
   position: absolute;
   font-family: 'Days One', monospace;
@@ -21,31 +59,6 @@
     color: #000;
     top: 5%;
     left:25%;
-}
-
-.descr-1{
-  position: absolute;
-  font-family: 'bungee', monospace;
-  font-size: 1.1em;
-  color: black;
-  left: 10%;
- bottom: 22%;
-}
-.descr-3{
-  position: absolute;
-  font-family: 'bungee', monospace;
-  font-size: 3em;
-  color: black;
-  left: 9.8%;
-  bottom: 13%;
-}
-.about-desc{
-position: fixed;
-font-family: manjari, monospace;
-font-size: 1em;
-color: black;
-left: 40%;
-top: 20%;
 }
 
 .portal-content-1{
@@ -91,16 +104,16 @@ top: 20%;
   left: 23%;
 }
 
-.bhc-content, .leeds-content, .notts-content, .essex-content{
-  position: absolute;
-  font-family: manjari, monospace;
-  font-size: .9em;
-  top: 10%;
-}
-.leeds-content, .bhc-content{
-    color: white;
-}.essex-content, .notts-content{
-    color: black;
+
+
+/*ABOUT PAGE*/
+.about-desc{
+position: fixed;
+font-family: manjari, monospace;
+font-size: 1em;
+color: black;
+left: 40%;
+top: 20%;
 }
 .hey{
   position: fixed;
@@ -114,6 +127,41 @@ top: 20%;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
+
+/*PAGE 3*/
+
+.bhc-content, .leeds-content, .notts-content, .essex-content{
+  position: absolute;
+  font-family: manjari, monospace;
+  font-size: .9em;
+  top: 10%;
+}
+.leeds-content, .bhc-content{
+    color: white;
+}.essex-content, .notts-content{
+    color: black;
+}
+.academic{
+  position: absolute;
+  font-family: manjari, monospace;
+  font-size: 5em;
+  font-weight: bold;
+  color: #ff5000;
+  left: 11%;
+  top:20%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 768px){
+  .academic{
+    font-size: 2em;
+  }
+}
+
+
+/*PAGE 4*/
 .journey{
   position: absolute;
    font-family: manjari, monospace;
@@ -157,26 +205,7 @@ top: 20%;
 }
 
 
-.academic{
-  position: absolute;
-  font-family: manjari, monospace;
-  font-size: 5em;
-  font-weight: bold;
-  color: #ff5000;
-  left: 11%;
-  top:20%;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-}
-
-@media only screen and (max-width: 768px){
-  .academic{
-    font-size: 2em;
-  }
-}
-
-
+/*PAGE 5*/
 .my-links:link{
   color: #00a4e5;
 } .my-links:visited{
@@ -201,6 +230,8 @@ top: 20%;
   color: black;
 }
 
+
+/*PROJECT PAGE*/
 #content1-title{
   position:absolute;
   font-family:Baloo Bhai;
