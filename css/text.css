@@ -4,50 +4,58 @@
 
 .name-wrapper{
   position: relative;
-  width: 100%;
+  width: 41.66%;
+  top: 10%; left: 8.33%;
+  height: 60vh;
 
 }
 .name{
-  position: relative;
+  position: absolute;
   font-family: 'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
-  font-size: 6em;
+  font-size: 9em;
   color: #f61024;
   width: 40%;
-  top: 5%;
+
 
 }
 .name-note{
-  position:relative;
-  font-family: manjari, monospace
-  font-size: .7em;
+  position: absolute;
+  font-family: manjari, monospace;
   font-weight: bold;
-  left: 32%;
+  font-size: .8em;
+  left: 47%;
+  top: 43%;
+  width: 40%;
   color: #f61024;
 }
-.descr{position: relative; top:10%; left:10%;width: 100%;}
+.descr{
+  position: relative;
+  top:10%; left: 8.33%;
+  height: 13vh; width: 50%;
+}
 
 .descr-1{
-  position: relative;
+  position: absolute;
   font-family: 'bungee', monospace;
   font-size: 1.1em;
   color: black;
-  left: 10%;
- bottom: 22%;
+  left: .2%;
 }
 .descr-2{
-  position: relative;
+  position: absolute;
   font-family: 'bungee', monospace;
   font-size: 3em;
   color: black;
-  left: 9.8%;
-  bottom: 13%;
+  top: 12%;
 }
 
 @media only screen and (max-width: 768px){
-  .name{font-size: 3.5em;top: 7%;}
-  .name-note{width:100%; top:6%;}
-  .descr{position: relative; top:10%; width: 100%;}
-  .descr-2{font-size: 2em;}
+  .name-wrapper{height: 30vh; width: 100%; left: 0%;}
+  .name{width: 100%; font-size: 6.5em; left: 3%;}
+  .name-note{width:33.33%%; top:45%; left: 50%;font-size: .6em;}
+  .descr{height:20vh; left: 0%; top:30%; width: 100%;}
+  .descr-1{left: 8%; font-size: 1em;}
+  .descr-2{font-size: 5em; left: 7%;}
 
 }
 
