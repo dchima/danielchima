@@ -118,8 +118,8 @@ img.profile-1{
 
 .bg5 {
   /*background-image: url("../images/pic17.jpg");*/
-  background-color: #fff;
-   height: 150vh;
+  background-color: #ff5;
+   height: 100vh;
 }
 
 /*
@@ -159,9 +159,9 @@ img.profile-1{
 }
 
 .social-family{
-  position:absolute;
-  bottom: 25%;
-  height: 50px;
+  position: relative;
+  top: 35%;
+  height: 8vh;
   width: 100%;
 }
 

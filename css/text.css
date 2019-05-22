@@ -223,11 +223,14 @@ top: 20%;
 }.my-links:active{
   color: green;
 }
-.footer-quote{
-  position: absolute;
-  color: #00ff94;
+
+.end-quote{
+  position: relative;
+  width: 66.66%;
+  height: 10vh;
+  color: #000;
   font-size: 4em;
-  top: 50%;
+  top: 33.33%;
   left: 20%;
 }
 .copyright{
