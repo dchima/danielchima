@@ -43,26 +43,8 @@ img.logo{
   .about{top: 15%;}
 }
 
+
 /*ABOUT PAGE*/
-
-
-
-
-/*PAGE ONE*/
-
-
-/*PAGE TWO*/
-
-
-/*PAGE THREE*/
-
-
-/*PAGE FOUR*/
-
-
-/*PAGE FIVE*/
-
-
 
 img.profile-1{
   position: fixed;
@@ -88,31 +70,49 @@ img.profile-1{
 }
 
 
-#room1, #room2, #room3, #rooom4, #room5 {
+
+/*PAGE ONE*/
+
+
+/*PAGE TWO*/
+
+
+/*PAGE THREE*/
+
+
+/*PAGE FOUR*/
+
+
+/*PAGE FIVE*/
+
+
+
+
+
+#room1, #room2, #room3, #room4, #room5 {
   position: relative;
   width: 100%;
   /*background-attachment: fixed;*/
 }
 .bg1 {
   /*background-image: url("../images/pic7-1.jpg");*/
-  background-color: #fff;
+  background-color: lightcyan;
   height: 150vh;
 }
 
 .bg2 {
-  background-color:#b3bfd1;
+  background-color:lightcyan;
   height:145vh;
 
 }.bg3{
-   position: relative;
-  background-color: #bb97f4;
+  background-color: lightcyan;
   height: 110vh;
 }
 
 .bg4 {
-   position: relative;
+
   background-image: none;
-  background-color: #b4e7ea;
+  background-color: lightcyan;
   height: 100vh;
 }
 
