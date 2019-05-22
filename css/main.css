@@ -19,10 +19,31 @@ body, html{
 /*NAV BAR*/
 .nav{
   position: fixed;
+  display: block;
   height: 8vh; width: 100%;
-
+  background-color: #ff5;
+  z-index: 1;
 }
 
+img.logo{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  max-width: 110px;
+  height: auto;
+}
+
+.about{
+  position: absolute;
+  right: 1%;
+}
+
+@media only screen and (max-width: 768px){
+  img.logo{top: 15%;}
+  .about{top: 15%;}
+}
+
+/*ABOUT PAGE*/
 
 
 
@@ -51,21 +72,7 @@ img.profile-1{
   height: auto;
 }
 
-img.logo{
-  position: fixed;
-  top: 20px;
-  left: 10px;
-  max-width: 95px;
-  height: auto;
-  opacity: 1;
-}
 
-.about{
-  position: fixed;
-  top: 15px;
-  right: 19px;
-  height: auto;
-}
 .exit{
   position: fixed;
   top: 13px;
@@ -84,39 +91,35 @@ img.logo{
 #room1, #room2, #room3, #rooom4, #room5 {
   position: relative;
   width: 100%;
-  height: 150vh;
   /*background-attachment: fixed;*/
 }
 .bg1 {
   /*background-image: url("../images/pic7-1.jpg");*/
   background-color: #fff;
+  height: 150vh;
 }
 
 .bg2 {
   background-color:#b3bfd1;
-  height:145vh ;
-  width:100%;
+  height:145vh;
 
 }.bg3{
    position: relative;
   background-color: #bb97f4;
   height: 110vh;
-  width: 100%;
 }
 
 .bg4 {
    position: relative;
   background-image: none;
   background-color: #b4e7ea;
-   width: 100%;
   height: 100vh;
 }
 
 .bg5 {
   /*background-image: url("../images/pic17.jpg");*/
   background-color: #fff;
-  height: 100%;
-  width: 100%;
+   height: 150vh;
 }
 
 /*
