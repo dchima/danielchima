@@ -6,11 +6,24 @@ var pop4= false;
 $(function(){
   $('.leeds').click(function(){
     if(pop1==false){
-      $('.menu').css({"opacity":"1","width":"900px","background":"#000"});
+        if ($(window).width() < 800){
+          $('.menu').css({"opacity":"1","width":"500px","background":"#000"});
+          $('.menu2').css("width","0px"); pop2=false;
+          $('.menu3').css("width","0px"); pop3=false;
+          $('.menu4').css("width","0px"); pop4=false;
+          pop1 = true;
+        }else{
+          $('.menu').css({"opacity":"1","width":"900px","background":"#000"});
+          $('.menu2').css("width","0px"); pop2=false;
+          $('.menu3').css("width","0px"); pop3=false;
+          $('.menu4').css("width","0px"); pop4=false;
+          pop1 = true;
+        }
+      /*$('.menu').css({"opacity":"1","width":"900px","background":"#000"});
       $('.menu2').css("width","0px"); pop2=false;
       $('.menu3').css("width","0px"); pop3=false;
-      $('.menu4').css("width","0px"); pop4=false;
-      pop1 = true;
+      $('.menu4').css("width","0px"); pop4=false;*/
+
     }else if(pop1==true){
       $('.menu').css("width","0px");
       pop1 = false;

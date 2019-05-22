@@ -170,6 +170,13 @@ top: 20%;
   transform: rotate(180deg);
 }
 
+@media only screen and (max-width: 768px){
+  .academic{
+    font-size: 2em;
+  }
+}
+
+
 .my-links:link{
   color: #00a4e5;
 } .my-links:visited{
