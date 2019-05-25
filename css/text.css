@@ -132,13 +132,14 @@
 
 /*ABOUT PAGE*/
 .about-desc{
-position: relative;
-font-family: cuprum, monospace;
-font-size: 1.1em;
-color: black;
-left: 45%;
-top: 0%;
-width: 25%
+  position: relative;
+  font-family: cuprum, monospace;
+  font-size: 1.1em;
+  color: black;
+  left: 45%;
+  top: 0%;
+  width: 25%;
+
 }
 .hey{
   position: relative;
@@ -157,7 +158,7 @@ width: 25%
   transform: rotate(270deg);}
   .about-desc{width: 66.66%; left: 16%; top: 45%;
     font-size: .8em;}
-  .about-page{height: 110vh;}
+  .about-page{height: 117vh;}
 
 }
 
