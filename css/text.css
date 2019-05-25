@@ -155,9 +155,9 @@ width: 25%
 @media only screen and (max-width: 768px){
   .hey{top:-5.9%;left: 20%; font-size: 2.5em;
   transform: rotate(270deg);}
-  .about-desc{width: 66.66%; left: 16%; top: 40%;
+  .about-desc{width: 66.66%; left: 16%; top: 45%;
     font-size: .8em;}
-  .about-page{height: 120vh;}
+  .about-page{height: 110vh;}
 
 }
 
