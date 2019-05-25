@@ -133,7 +133,7 @@
 /*ABOUT PAGE*/
 .about-desc{
 position: relative;
-font-family: manjari, monospace;
+font-family: cuprum, monospace;
 font-size: 1.1em;
 color: black;
 left: 45%;
@@ -142,7 +142,7 @@ width: 25%
 }
 .hey{
   position: relative;
-  font-family: manjari, monospace;
+  font-family: cuprum, monospace;
   font-size: 5em;
   font-weight: bold;
   color: black;
@@ -153,7 +153,7 @@ width: 25%
 }
 
 @media only screen and (max-width: 768px){
-  .hey{top:-5%;left: 20%; font-size: 2.5em;
+  .hey{top:-5.9%;left: 20%; font-size: 2.5em;
   transform: rotate(270deg);}
   .about-desc{width: 66.66%; left: 16%; top: 40%;
     font-size: .8em;}
