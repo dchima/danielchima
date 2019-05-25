@@ -153,9 +153,9 @@ width: 25%
 }
 
 @media only screen and (max-width: 768px){
-  .hey{top:20%;left: -1%; font-size: 3.5em;}
+  .hey{top:10%;left: -2%; font-size: 3.5em;}
   .about-desc{width: 66.66%; left: 16%; top: 50%;}
-  .about-page{height: 170vh;}
+  .about-page{height: 110vh;}
 
 }
 
