@@ -26,10 +26,10 @@
 }*/
 
 .about-page{
-  position: absolute;
-  background-color: #e6e9ef;
+  position: relative;
+  background-color: #e6e9;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding:5px;
   display: none;
   z-index: 1;
