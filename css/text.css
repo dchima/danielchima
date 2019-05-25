@@ -1,5 +1,21 @@
 
 /*********************HOME PAGE*********************/
+
+/*NAV BAR*/
+.nav-title{
+  position: absolute;
+  font-family: fredoka one;
+  font-size: 1em;
+  color: black;
+  left: 44%; top: 30%;
+}.nav-title:link{text-decoration: none;}
+
+@media only screen and (max-width: 768px){
+  .nav-title{left: 3%; top: 40%;}
+
+}
+
+
 /*PAGE ONE*/
 
 .name-wrapper{
