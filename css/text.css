@@ -134,8 +134,9 @@
 .about-desc{
   position: relative;
   font-family: cuprum, monospace;
-  font-size: 1.1em;
+  font-size: 1em;
   color: black;
+  font-weight: bold;
   left: 45%;
   top: 0%;
   width: 25%;
@@ -156,7 +157,7 @@
 @media only screen and (max-width: 768px){
   .hey{top:-5.9%;left: 25%; font-size: 2.5em;
   transform: rotate(270deg);}
-  .about-desc{width: 66.66%; left: 16%; top: 45%;
+  .about-desc{width: 75%; left: 13%; top: 45%;
     font-size: .8em;}
   .about-page{height: 117vh;}
 
