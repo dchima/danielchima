@@ -116,24 +116,30 @@
 
 /*ABOUT PAGE*/
 .about-desc{
-position: fixed;
+position: relative;
 font-family: manjari, monospace;
-font-size: 1em;
+font-size: 1.1em;
 color: black;
-left: 40%;
-top: 20%;
+left: 45%;
+top: 0%;
+width: 25%
 }
 .hey{
-  position: fixed;
+  position: relative;
   font-family: manjari, monospace;
   font-size: 5em;
   font-weight: bold;
   color: black;
-  left: 14%;
-  top: 16%;
+  left: 10%;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 768px){
+  .hey{top:20%;left: 0%; font-size: 3.5em;}
+  .about-desc{width: 66.66%; left: 16%; top: 50%}
+
 }
 
 /*PAGE 3*/

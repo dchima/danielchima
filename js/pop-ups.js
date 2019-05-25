@@ -81,13 +81,13 @@ $(function(){
 $(function(){
   $('.about').click(function() {
     $('.about-page').fadeIn("slow");
-    $('.wrapper').fadeOut(0);
+    $('.wrapper').fadeOut(0); $('.nav').fadeOut(0);
   });
 });
 
 $(function(){
   $('.exit').click(function() {
-    $('.wrapper').fadeIn("slow");
+    $('.wrapper').fadeIn("slow"); $('.nav').fadeIn("slow");
     $('.about-page').hide(0);
   });
 });
