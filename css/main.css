@@ -65,6 +65,7 @@ img.profile-1{
 @media only screen and (max-width: 768px){
   .exit{left: 85%; top: 1%;}
   img.profile-1{ top: 15%; left: 17.5%;  width:65%; height: auto;}
+  .about-page{width: 100%;}
 }
 
 
