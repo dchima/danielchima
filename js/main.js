@@ -34,7 +34,7 @@ $(function(){
 $(function(){
   $('.nottingham').click(function() {
     if(pop2==false){
-      $('.menu2').css({"opacity":"1","width":"900px","background":"#cadcf9"});
+      $('.menu2').css({"opacity":"1","width":"900px","background":"#289ac1"});
       $('.menu').css("width","0px"); pop1=false;
       $('.menu3').css("width","0px"); pop3=false;
       $('.menu4').css("width","0px"); pop4=false;

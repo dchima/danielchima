@@ -180,6 +180,18 @@
 
 /*PAGE 3*/
 
+.academic-intro{
+  position: absolute;
+  width: 50%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: white;
+  top: 35%;
+  left: 24%;
+}
+
 .bhc-content, .leeds-content, .notts-content, .essex-content{
   position: absolute;
   font-family: manjari, monospace;
@@ -193,12 +205,12 @@
 }
 .academic{
   position: absolute;
-  font-family: manjari, monospace;
+  font-family: fredoka one,manjari, monospace;
   font-size: 5em;
   font-weight: bold;
-  color: #ff5000;
-  left: 11%;
-  top:20%;
+  color: white;
+  left: 12%;
+  top:10%;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -214,10 +226,10 @@
 /*PAGE 4*/
 .journey{
   position: absolute;
-   font-family: manjari, monospace;
+   font-family: fredoka one,manjari, monospace;
    font-size: 4.4em;
    font-weight: bold;
-   color: #00a4e5;
+   color: black;
    left: 10%;
    top: 10%;
    -webkit-writing-mode: vertical-rl;
@@ -228,8 +240,10 @@
 
 .room4-family{
   position: absolute;
-  height: 500px;
-  width: 100%;
+  height: 300px;
+  top: 15%;
+  left:16.66%;
+  width: 75%;
 }
 .room4-content{
   position: absolute;
@@ -237,21 +251,21 @@
   font-weight: bold;
   font-size: 0.9em;
   top: 15%;
-  left: 20%;
+  left: 8.33%;
 }.room4-content2{
   font-size: 0.9em;
   font-weight: bold;
   position: absolute;
   color: black;
   top: 15%;
-  left: 38%;
+  left: 33%;
 }.room4-content3{
   font-size: 0.9em;
   font-weight: bold;
   position: absolute;
   color: black;
   top: 15%;
-  left: 65%;
+  left: 66.66%;
 }
 
 
