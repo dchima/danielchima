@@ -89,12 +89,14 @@ img.profile-1{
 
 .image-1{
   position: absolute;
-  height: auto; width: 45%;
-  left: 53%; top: 16%;
-  border-radius: 5px 5px 5px 5px;
+  height: auto; width: 50%;
+  border-radius: 100px 100px 100px 100px;
+  left: 45%; top: 11%;
+
+
 }
 
-/*PAGE TWO*/<div class="image-1">
+/*PAGE TWO*/
 .bg2 {
   background-color: #140c3a;
   height:135vh;
