@@ -46,8 +46,8 @@
 }
 .descr{
   position: relative;
-  top:12%; left: 8.33%;
-  height: 25vh; width: 33.33%;
+  top:20%; left: 23%;
+  height: 13vh; width: 66.66%;
 }
 
 .descr-1{
@@ -55,7 +55,7 @@
   font-family: fredoka one,'bungee', monospace;
   font-size: 1.1em;
   color: black;
-  left: .2%;
+  left: 33%;
 }
 .descr-2{
   position: absolute;
