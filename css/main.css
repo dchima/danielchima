@@ -87,7 +87,14 @@ img.profile-1{
   height: 100vh;
 }
 
-/*PAGE TWO*/
+.image-1{
+  position: absolute;
+  height: auto; width: 45%;
+  left: 53%; top: 16%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/*PAGE TWO*/<div class="image-1">
 .bg2 {
   background-color: #140c3a;
   height:135vh;
