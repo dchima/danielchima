@@ -78,54 +78,69 @@
 /*PAGE 2*/
 .hood{
   position: absolute;
-  font-family: 'Days One', monospace;
-  font-size: 3.3em;
-    color: #000;
+  font-family: fredoka one, monospace;
+  font-size: 2.5em;
+    color: #ff5;
     top: 5%;
-    left:25%;
+    left:5%;
 }
 
 .portal-content-1{
   position: absolute;
+  width: 25%;
   font-family: manjari, monospace;
   font-weight: bold;
   font-size: 0.9em;
-  text-align:center;
-  color: black;
+  text-align: center;
+  color: white;
   top: 17%;
-  left: 55%;
+  left: 7%;
 }
 .portal-content-2{
   position: absolute;
+  width: 25%;
   font-family: manjari, monospace;
   font-weight: bold;
   font-size: 0.9em;
   text-align:center;
-  color: black;
-  top: 42%;
-  left: 55%;
+  color: white;
+  top: 17%;
+  left: 37%;
+}
+#sub1, #sub2, #sub3{color: #39d815;}
+.portal-content-3{
+  position: absolute;
+  width: 25%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: white;
+  top: 17%;
+  left: 67%;
+
 }
 
 .proj-title{
   position: absolute;
   font-weight: bold;
-  color: #ff6100;
-  top: 120%;
-  left: 35%;
+  color: #009b3e;
+  top: 90%;
+  left: 16%;
 
 }.photog-title{
   position: absolute;
   font-weight: bold;
-  color: #ff6100;
-  top: 123%;
-  left: 20%;
+  color: #0bc6b4;
+  top: 90%;
+  left: 44.7%;
 
 }.lit-title{
   position: absolute;
   font-weight: bold;
-  color: #ff6100;
-  top: 130%;
-  left: 23%;
+  color: #feffd1;
+  top: 90%;
+  left: 75%;
 }
 
 
