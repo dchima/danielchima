@@ -127,7 +127,7 @@ img.profile-1{
   width: 25%;
   height: 20vh;
   top:10%; left:7%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 80px 80px 80px 80px;
 }.proj-logo:hover{
   background-color:  #2ef900
 }
@@ -138,7 +138,7 @@ img.profile-1{
   height: 20vh;
   width: 25%;
   top: 10%; left: 37%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 80px 80px 80px 80px;
 }.photog-logo:hover{
   background-color: #0cf2ff;
 }
@@ -148,73 +148,16 @@ img.profile-1{
   height: 20vh;
   width: 25%;
   top:10%; left:67%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 80px 80px 80px 80px;
 }.lit-logo:hover{
   background-color: #f9ff00;
 }
 
 
 /*PAGE THREE*/
-
-
-/*PAGE FOUR*/
-
-
-/*PAGE FIVE*/
-
-
-
-
-
-
-
-
 .bg3{
   background-color: #28c182;
   height: 110vh;
-}
-
-.bg4 {
-
-  background-image: none;
-  background-color: #d3adc1;
-  height: 100vh;
-}
-
-.bg5 {
-  /*background-image: url("../images/pic17.jpg");*/
-  background-color: #ff5;
-   height: 100vh;
-}
-
-/*
-@media only screen and (max-device-width: 1024px) {
-  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
-    background-attachment: scroll;
-  }
-}*/
-
-
-@keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
 }
 
 .uni-logos{
@@ -224,68 +167,6 @@ img.profile-1{
   top: 50%;
 
 }
-
-.social-family{
-  position: relative;
-  top: 35%;
-  height: 8vh;
-  width: 100%;
-}
-
-
-.instagram{
-  position:absolute;
-  bottom: 30%;
-  left: 37%;
-  margin-left: -16px;
-  display: block;
-
-}.instagram:hover{opacity: 0.5;}
-
-.twitter{
-  position: absolute;
-  bottom: 30%;
-  left: 42%;
-  margin-left: -16px;
-  display: block;
-
-}.twitter:hover{opacity: 0.5;}
-
-.linkedin{
-  position: absolute;
-  bottom: 30%;
-  left: 47%;
-  margin-left: -16px;
-  display: block;
-
-}.linkedin:hover{opacity: 0.5;}
-
-.youtube{
-  position: absolute;
-  bottom: 30%;
-  left: 52%;
-  margin-left: -16px;
-  display: block;
-
-}.youtube:hover{opacity: 0.5;}
-
-.github{
-  position: absolute;
-  bottom: 30%;
-  left: 57%;
-  margin-left: -16px;
-  display: block;
-
-}.github:hover{opacity: 0.5;}
-
-.mail-footer{
-  position: absolute;
-  bottom: 30%;
-  left: 62%;
-  margin-left: -16px;
-  display: block;
-
-}.mail-footer:hover{opacity: 0.5;}
 
 .bhc, .essex, .nottingham, .leeds{
   position: absolute;
@@ -344,6 +225,128 @@ transform: translateY(-8px);
   transform: translateY(-8px);
 
 }
+
+/*PAGE FOUR*/
+.bg4 {
+
+  background-image: none;
+  background-color: #d3adc1;
+  height: 100vh;
+}
+
+/*PAGE FIVE*/
+.bg5 {
+  /*background-image: url("../images/pic17.jpg");*/
+  background-color: #ff5;
+   height: 100vh;
+}
+
+.social-family{
+  position: relative;
+  top: 35%;
+  height: 8vh;
+  width: 100%;
+}
+
+.instagram{
+  position:absolute;
+  bottom: 30%;
+  left: 37%;
+  margin-left: -16px;
+  display: block;
+
+}.instagram:hover{opacity: 0.5;}
+
+.twitter{
+  position: absolute;
+  bottom: 30%;
+  left: 42%;
+  margin-left: -16px;
+  display: block;
+
+}.twitter:hover{opacity: 0.5;}
+
+.linkedin{
+  position: absolute;
+  bottom: 30%;
+  left: 47%;
+  margin-left: -16px;
+  display: block;
+
+}.linkedin:hover{opacity: 0.5;}
+
+.youtube{
+  position: absolute;
+  bottom: 30%;
+  left: 52%;
+  margin-left: -16px;
+  display: block;
+
+}.youtube:hover{opacity: 0.5;}
+
+.github{
+  position: absolute;
+  bottom: 30%;
+  left: 57%;
+  margin-left: -16px;
+  display: block;
+
+}.github:hover{opacity: 0.5;}
+
+.mail-footer{
+  position: absolute;
+  bottom: 30%;
+  left: 62%;
+  margin-left: -16px;
+  display: block;
+
+}.mail-footer:hover{opacity: 0.5;}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-device-width: 1024px) {
+  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
+    background-attachment: scroll;
+  }
+}*/
+
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
 
 /*PROJECTS HOME PAGE*/
 .proj-content{

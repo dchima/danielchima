@@ -40,14 +40,14 @@
   font-weight: bold;
   font-size: .8em;
   left: 47%;
-  top: 43%;
+  top: 42%;
   width: 40%;
   color: #267c0e;
 }
 .descr{
   position: relative;
   top:12%; left: 8.33%;
-  height: 13vh; width: 50%;
+  height: 25vh; width: 33.33%;
 }
 
 .descr-1{
@@ -60,7 +60,7 @@
 .descr-2{
   position: absolute;
   font-family: fredoka one,'bungee', monospace;
-  font-size: 3em;
+  font-size: 3.5em;
   color: black;
   top: 12%;
 }
