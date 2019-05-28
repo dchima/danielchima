@@ -233,8 +233,12 @@
 
 @media only screen and (max-width: 768px){
   .academic{
-    font-size: 2em;
+    font-size: 2.3em; transform: rotate(270deg);
+    left: 45%; top: -5%;
   }
+  .academic-intro{width: 100%; left: 0%; font-size: 0.8em;
+  padding-left: 20px; padding-right: 20px; top: 15%;}
+
 }
 
 

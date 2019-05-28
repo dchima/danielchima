@@ -17,6 +17,11 @@
   left: 16.5%;
   top: 13.5%;
 }
+
+@media only screen and (max-width: 768px){
+
+}
+
 /*.academic-pic{
   position: absolute;
   background-image: url("../images/pic8-2.jpg");
@@ -25,6 +30,9 @@
   left: 16.5%;
   top: 21.5%;
 }*/
+
+
+/*ABOUT PAGE*/
 
 .about-page{
   position: relative;
