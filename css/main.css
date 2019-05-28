@@ -119,9 +119,8 @@ img.profile-1{
   height: auto;
 }
 
-.proj-img{top:18%; left: 39%;}
-.photog-img{top:18%; left: 39%;}
-.lit-img{top:18%; left: 39%;}
+.proj-img, .photog-img, .lit-img{top:18%; left: 39%;}
+
 
 
 
@@ -157,6 +156,19 @@ img.profile-1{
   background-color: #f9ff00;
 }
 
+@media only screen and (max-width: 768px){
+  .bg2{height: 170vh;}
+  .portal{height: 65vh; top:57%}
+
+  .proj-logo{width: 66.66%;left:17%; top: 0%;
+  height: 15vh}
+  .photog-logo{width: 66.66%;left:17%; top:35%;
+  height: 15vh;}
+  .lit-logo{width: 66.6%;left:17%; top:70%;
+  height: 15vh;}
+  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
+
+}
 
 /*PAGE THREE*/
 .bg3{
