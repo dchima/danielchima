@@ -41,7 +41,7 @@ img.logo{
   fill: #f3f;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   img.logo{display: none;}
   .about{top: 27%; left: 89%;}
 }
@@ -66,7 +66,7 @@ img.profile-1{
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .exit{left: 85%; top: 1%;}
   img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
 
@@ -94,7 +94,7 @@ img.profile-1{
   left: 45%; top: 11%;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .bg1{height: 130vh;}
   .image-1{left: 2.5%; top: 40%; width: 95%;
   border-radius: 80px 80px 80px 80px;}
@@ -156,7 +156,7 @@ img.profile-1{
   background-color: #f9ff00;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .bg2{height: 170vh;}
   .portal{height: 65vh; top:57%}
 
@@ -242,7 +242,7 @@ transform: translateY(-8px);
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .bg3{height: 160vh;}
   .uni-logos{height: 45vh; top: 30%;}
   .leeds{left: 24%; top: 10%;}
@@ -255,9 +255,12 @@ transform: translateY(-8px);
 /*PAGE FOUR*/
 .bg4 {
 
-  background-image: none;
   background-color: #d3adc1;
   height: 100vh;
+}
+
+@media only screen and (max-width: 361px){
+  .bg4{height: 140vh;}
 }
 
 /*PAGE FIVE*/
@@ -328,7 +331,16 @@ transform: translateY(-8px);
 
 }.mail-footer:hover{opacity: 0.5;}
 
-
+@media only screen and (max-width: 361px){
+  .bg5{height: 90vh;}
+  .social-family{height: 40vh; top: 30%;}
+  .instagram{left: 30%; top:30%;}
+  .twitter{left: 50%; top:30%;}
+  .linkedin{left: 70%; top:30%;}
+  .youtube{left: 30%; top:60%;}
+  .github{left: 50%; top:60%;}
+  .mail-footer{left: 70%; top:61.5%;}
+}
 
 
 

@@ -10,7 +10,7 @@
   left: 44%; top: 30%;
 }.nav-title:link{text-decoration: none;}
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .nav-title{left: 3%; top: 40%;}
 
 }
@@ -65,7 +65,7 @@
   top: 12%;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
   .name{width: 91.66%; font-size: 6em; left:0%;}
   .name-note{top:52%; left: 55%;font-size: .5em;}
@@ -143,7 +143,7 @@
   left: 75%;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .hood{font-size: 2em; left: 10%}
   .portal-content-1{width: 100%; left: 0%;top: 12%;
    padding-left: 20px;padding-right:20px;
@@ -184,7 +184,7 @@
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .hey{top:-5.9%;left: 25%; font-size: 2.5em;
   transform: rotate(270deg);}
   .about-desc{width: 75%; left: 13%; top: 45%;
@@ -231,7 +231,7 @@
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 361px){
   .academic{
     font-size: 2.3em; transform: rotate(270deg);
     left: 45%; top: -5%;
@@ -259,13 +259,14 @@
 
 .room4-family{
   position: absolute;
-  height: 300px;
-  top: 15%;
+  height: 50vh;
+  top: 20%;
   left:16.66%;
   width: 75%;
 }
 .room4-content{
   position: absolute;
+  width: 25%;
   color: black;
   font-weight: bold;
   font-size: 0.9em;
@@ -273,6 +274,7 @@
   left: 8.33%;
 }.room4-content2{
   font-size: 0.9em;
+  width: 33.33%;
   font-weight: bold;
   position: absolute;
   color: black;
@@ -280,13 +282,27 @@
   left: 33%;
 }.room4-content3{
   font-size: 0.9em;
+  width: 25%;
   font-weight: bold;
   position: absolute;
   color: black;
   top: 15%;
-  left: 66.66%;
+  left: 75%;
 }
 
+@media only screen and (max-width: 361px){
+  .journey{font-size: 2.3em;transform: rotate(270deg);
+  top: -5%; left: 45%;}
+  .room4-family{left: 0%; width: 100%; height:90vh;
+  top: 15%;}
+  .room4-content{width:91.66%; top:0%;
+  left: 7%;}
+  .room4-content2{width: 91.66%; top:80%; left: 4%;
+    padding-right: 20px; text-align: center;}
+  .room4-content3{width: 91.66%; top: 45%; left: 7%;
+  padding-right: 20px;}
+
+}
 
 /*PAGE 5*/
 .my-links:link{
@@ -308,12 +324,20 @@
   top: 33.33%;
   left: 20%;
 }
+
+
+
 .copyright{
   position: absolute;
   bottom: 45%;
   left: 44%;
   font-size: .8em;
   color: black;
+}
+
+@media only screen and (max-width: 361px){
+  .end-quote{display: none;}
+  .copyright{font-size: .6em; left: 33%;}
 }
 
 
