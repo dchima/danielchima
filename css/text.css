@@ -1,448 +1,431 @@
-* {
-  box-sizing: border-box; /* so we don't have to worry about padding affecting width */
-}
 
-*,
-:after,
-:before {
-  margin: 0;
-  padding: 0;
-}
-
-body, html{
-  padding: 0;
-  margin: 0;
-  font: normal 16px/1.2 sans-serif;
-  color: #777;
-}
+/*********************HOME PAGE*********************/
 
 /*NAV BAR*/
-.nav{
-  position: fixed;
-  display: block;
-  height: 8vh; width: 100%;
-  background-color: #ff5;
-  z-index: 1;
-}
-
-img.logo{
-  display: none;
+.nav-title{
   position: absolute;
-  top: 1%;
-  left: 1%;
-  max-width: 110px;
-  height: auto;
-}
-
-.about{
-  position: absolute;
-  left: 54.6%; top: 17%;
-}.about:hover{
-  fill: #f3f;
-}
+  font-family: fredoka one;
+  font-size: 1em;
+  color: black;
+  left: 44%; top: 30%;
+}.nav-title:link{text-decoration: none;}
 
 @media only screen and (max-width: 768px){
-  img.logo{display: none;}
-  .about{top: 27%; left: 89%;}
-}
+  .nav-title{left: 3%; top: 40%;}
 
-
-/*ABOUT PAGE*/
-
-
-img.profile-1{
-  position: absolute;
-  top: 10%;
-  left: 18%;
-  width: 25%;
-  height: auto;
-  border-radius: 20px 20px 20px 20px;
-}
-
-
-.exit{
-  position: relative;
-  left: 95%;
-}
-
-
-@media only screen and (max-width: 768px){
-  .exit{left: 85%; top: 1%;}
-  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
-
-}
-
-/*PAGE PRE-WORK*/
-#room1, #room2, #room3, #room4, #room5 {
-  position: relative;
-  width: 100%;
-  /*background-attachment: fixed;*/
 }
 
 
 /*PAGE ONE*/
-.bg1 {
-  /*background-image: url("../images/pic7-1.jpg");*/
-  background-color: #ff5;
-  height: 100vh;
-}
 
-.image-1{
-  position: absolute;
-  height: auto; width: 50%;
-  border-radius: 100px 100px 100px 100px;
-  left: 45%; top: 11%;
-
-
-}
-
-/*PAGE TWO*/
-.bg2 {
-  background-color: #140c3a;
-  height:135vh;
-
-}
-
-.portal{
-  position: absolute;
-  width: 100%;
-  height: 25vh;
-  top: 60%;
-}
-.proj-img, .photog-img, .lit-img{
-  position: absolute;
-  width: 80px;
-  height: auto;
-}
-
-.proj-img{top:18%; left: 39%;}
-.photog-img{top:18%; left: 39%;}
-.lit-img{top:18%; left: 39%;}
-
-
-
-.proj-logo{
-  position: absolute;
-  background-color: #009b3e;
-  width: 25%;
-  height: 20vh;
-  top:10%; left:7%;
-  border-radius: 80px 80px 80px 80px;
-}.proj-logo:hover{
-  background-color:  #2ef900
-}
-
-.photog-logo{
-  position: absolute;
-  background-color: #0bc6b4;
-  height: 20vh;
-  width: 25%;
-  top: 10%; left: 37%;
-  border-radius: 80px 80px 80px 80px;
-}.photog-logo:hover{
-  background-color: #0cf2ff;
-}
-.lit-logo{
-  position: absolute;
-  background-color: #d5d85b;
-  height: 20vh;
-  width: 25%;
-  top:10%; left:67%;
-  border-radius: 80px 80px 80px 80px;
-}.lit-logo:hover{
-  background-color: #f9ff00;
-}
-
-
-/*PAGE THREE*/
-.bg3{
-  background-color:#0e4946;
-  height: 110vh;
-}
-
-.uni-logos{
-  position:absolute;
-  height: 100%;
-  width: 100%;
-  top: 50%;
-
-}
-
-.bhc, .essex, .nottingham, .leeds{
-  position: absolute;
-  width: 10px;
-  height: auto;
-  margin-left: -16px;
-  display: block;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.bhc{
-   top: 10%;
-  left: 73.5%;
-
-
-}.bhc:hover, .bhc:focus, .bhc:active{
-   -webkit-transform: translateY(-8px);
-transform: translateY(-8px);
-}
-
-.essex{
-    top: 12%;
-  left: 59%;
-
-
-}.essex:hover, .essex:focus, .essex:active{
-   -webkit-transform: translateY(-8px);
-transform: translateY(-8px);
-}
-
-.nottingham{
-  top:6.5%;
-  left: 41%;
-
-} .nottingham:hover, .nottingham:focus, .nottingham:active{
--webkit-transform: translateY(-8px);
- transform: translateY(-8px);
-}
-
-
-.leeds{
-  top :12%;
-  left: 23%;
-
-}.leeds:hover, .leeds:focus, .leeds:active {
-
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-
-}
-
-/*PAGE FOUR*/
-.bg4 {
-
-  background-image: none;
-  background-color: #d3adc1;
-  height: 100vh;
-}
-
-/*PAGE FIVE*/
-.bg5 {
-  /*background-image: url("../images/pic17.jpg");*/
-  background-color: #ff5;
-   height: 100vh;
-}
-
-.social-family{
+.name-wrapper{
   position: relative;
-  top: 35%;
-  height: 8vh;
-  width: 100%;
+  width: 41.66%;
+  top: 10%; left: 8.33%;
+  height: 60vh;
+
 }
-
-.instagram{
-  position:absolute;
-  bottom: 30%;
-  left: 37%;
-  margin-left: -16px;
-  display: block;
-
-}.instagram:hover{opacity: 0.5;}
-
-.twitter{
+.name{
   position: absolute;
-  bottom: 30%;
-  left: 42%;
-  margin-left: -16px;
-  display: block;
+  font-family: fredoka one,'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
+  font-size: 9em;
+  color:black /*#f61024*/;
+  width: 40%;
 
-}.twitter:hover{opacity: 0.5;}
 
-.linkedin{
+}
+.name-note{
   position: absolute;
-  bottom: 30%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: .8em;
   left: 47%;
-  margin-left: -16px;
-  display: block;
-
-}.linkedin:hover{opacity: 0.5;}
-
-.youtube{
-  position: absolute;
-  bottom: 30%;
-  left: 52%;
-  margin-left: -16px;
-  display: block;
-
-}.youtube:hover{opacity: 0.5;}
-
-.github{
-  position: absolute;
-  bottom: 30%;
-  left: 57%;
-  margin-left: -16px;
-  display: block;
-
-}.github:hover{opacity: 0.5;}
-
-.mail-footer{
-  position: absolute;
-  bottom: 30%;
-  left: 62%;
-  margin-left: -16px;
-  display: block;
-
-}.mail-footer:hover{opacity: 0.5;}
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media only screen and (max-device-width: 1024px) {
-  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
-    background-attachment: scroll;
-  }
-}*/
-
-
-@keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
+  top: 42%;
+  width: 40%;
+  color: #267c0e;
 }
-
-
-
-
-
-
-
-/*PROJECTS HOME PAGE*/
-.proj-content{
+.descr{
   position: relative;
-  overflow: hidden;
-  /*height: 130px;*/
-  height: 25vh;
-  width: 219vh;
-  left: 0.1%;
-  border-radius: 20px 20px 20px 20px;
-  -webkit-transition: height 3s ease;
--moz-transition: height 3s ease;
--o-transition: height 3s ease;
--ms-transition: height 3s ease;
-  transition: height 3s ease;
+  top:20%; left: 23%;
+  height: 13vh; width: 66.66%;
 }
 
-/*images*/
-.content1-img1{
+.descr-1{
   position: absolute;
-  height: auto;
-  width: 300px;
-  right: 3%;
-  top: 14%;
+  font-family: fredoka one,'bungee', monospace;
+  font-size: 1.1em;
+  color: black;
+  left: 33%;
 }
-.content2-img1{
+.descr-2{
   position: absolute;
-  height: auto;
-  width: 500px;
-  right: 3%;
-  top: 14%;
+  font-family: fredoka one,'bungee', monospace;
+  font-size: 3.5em;
+  color: black;
+  top: 12%;
 }
-.content3-img1{
-  position: absolute;
-  height: auto;
-  width: 500px;
-  left: -8%;
-  top: 20%;
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+
+@media only screen and (max-width: 768px){
+  .name-wrapper{height: 30vh; width: 91.66%; left: 0%;}
+  .name{width: 91.66%; font-size: 6em; left:0%;}
+  .name-note{top:52%; left: 55%;font-size: .5em;}
+  .descr{height:20vh; left: 0%; top:20%; width: 91.66%;}
+  .descr-1{left: 8%; font-size: 1em;}
+  .descr-2{font-size: 4em; left: 7%;}
+
 }
-.content3-img2{
+
+/*PAGE 2*/
+.hood{
   position: absolute;
-  height: 400px;
-  width: auto;
-  right: 1%;
-  top: 15%;
+  font-family: fredoka one, monospace;
+  font-size: 2.5em;
+    color: #ff5;
+    top: 5%;
+    left:5%;
 }
-.content4-img1{
+
+.portal-content-1{
   position: absolute;
-  height: 300px;
-  width: auto;
-  left: -0%;
-  top: -20%;
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  transform: rotate(-40deg);
+  width: 25%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+  color: white;
+  top: 17%;
+  left: 7%;
 }
-.content4-img2{
+.portal-content-2{
   position: absolute;
-  height: 300px;
-  width: auto;
-  right: -1%;
-  bottom: 0%;
+  width: 25%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: white;
+  top: 17%;
+  left: 37%;
 }
-.content5-img1{
+#sub1, #sub2, #sub3{color: #39d815;}
+.portal-content-3{
   position: absolute;
-  height: 560px;
-  width: auto;
+  width: 25%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: white;
+  top: 17%;
+  left: 67%;
+
+}
+
+.proj-title{
+  position: absolute;
+  font-weight: bold;
+  color: #009b3e;
+  top: 90%;
+  left: 16%;
+
+}.photog-title{
+  position: absolute;
+  font-weight: bold;
+  color: #0bc6b4;
+  top: 90%;
+  left: 44.7%;
+
+}.lit-title{
+  position: absolute;
+  font-weight: bold;
+  color: #d5d85b;
+  top: 90%;
+  left: 75%;
+}
+
+
+
+/*ABOUT PAGE*/
+.about-desc{
+  position: relative;
+  font-family: cuprum, monospace;
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+  left: 45%;
+  top: 0%;
+  width: 25%;
+
+}
+.hey{
+  position: relative;
+  font-family: cuprum, monospace;
+  font-size: 5em;
+  font-weight: bold;
+  color: black;
   left: 10%;
-  top: 8%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 768px){
+  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
+  transform: rotate(270deg);}
+  .about-desc{width: 75%; left: 13%; top: 45%;
+    font-size: .8em;}
+  .about-page{height: 117vh;}
+
+}
+
+/*PAGE 3*/
+
+.academic-intro{
+  position: absolute;
+  width: 50%;
+  font-family: manjari, monospace;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align:center;
+  color: white;
+  top: 35%;
+  left: 24%;
+}
+
+.bhc-content, .leeds-content, .notts-content, .essex-content{
+  position: absolute;
+  font-family: manjari, monospace;
+  font-size: .9em;
+  top: 10%;
+}
+.leeds-content, .bhc-content{
+    color: white;
+}.essex-content, .notts-content{
+    color: black;
+}
+.academic{
+  position: absolute;
+  font-family: fredoka one,manjari, monospace;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  left: 12%;
+  top:10%;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 768px){
+  .academic{
+    font-size: 2em;
+  }
 }
 
 
-/*content sectons*/
-.content1{
-  background-color: black;
+/*PAGE 4*/
+.journey{
+  position: absolute;
+   font-family: fredoka one,manjari, monospace;
+   font-size: 4.4em;
+   font-weight: bold;
+   color: black;
+   left: 10%;
+   top: 10%;
+   -webkit-writing-mode: vertical-rl;
+   writing-mode: vertical-rl;
+   transform: rotate(180deg);
+
 }
-.content2{
-  background-color:#dcff1c;
+
+.room4-family{
+  position: absolute;
+  height: 300px;
+  top: 15%;
+  left:16.66%;
+  width: 75%;
 }
-.content3{
-  background-color: #75baef;
-}
-.content4{
-  background-color: #ff4300;
-}
-.content5{
-  background-color: #e2ad41;
+.room4-content{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9em;
+  top: 15%;
+  left: 8.33%;
+}.room4-content2{
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  top: 15%;
+  left: 33%;
+}.room4-content3{
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  top: 15%;
+  left: 66.66%;
 }
 
 
-/*wrapper page for content texts and pictures*/
-#content1-wrapper, #content2-wrapper, #content3-wrapper, #content4-wrapper, #content5-wrapper{
-display: none;
-height: inherit;
-width: inherit;
+/*PAGE 5*/
+.my-links:link{
+  color: #00a4e5;
+} .my-links:visited{
+  color: blue;
+}.my-links:hover{
+  color: green;
+}.my-links:active{
+  color: green;
+}
+
+.end-quote{
+  position: relative;
+  width: 66.66%;
+  height: 10vh;
+  color: #000;
+  font-size: 4em;
+  top: 33.33%;
+  left: 20%;
+}
+.copyright{
+  position: absolute;
+  bottom: 45%;
+  left: 44%;
+  font-size: .8em;
+  color: black;
+}
+
+
+/*PROJECT PAGE*/
+#content1-title{
+  position:absolute;
+  font-family:Baloo Bhai;
+  color:white;
+  left: 35%;
+  top:3%;
+  font-size:2.2em;
+}
+#c1-p1{
+  color:white;
+  position:absolute;
+  left: -1%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+#c1-p2{
+  color:white;
+  position:absolute;
+  left: 28%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+
+#content2-title{
+  position:absolute;
+  font-family:Baloo Bhai;
+  color:black;
+  left: 13%;
+  top:3%;
+  font-size:2.2em;
+}
+
+#c2-p1{
+  color:black;
+  position:absolute;
+  left: -1%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+#c2-p2{
+  color:black;
+  position:absolute;
+  left: 28%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+
+
+
+#content3-title{
+  position:absolute;
+  font-family:Baloo Bhai;
+  color:#06449b;
+  left: 25%;
+  top:3%;
+  font-size:2.2em;
+}
+
+#c3-p1{
+  color:#06449b;
+  position:absolute;
+  left: 20%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+#c3-p2{
+  color:#06449b;
+  position:absolute;
+  left: 50%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+
+
+#content4-title{
+  position:absolute;
+  font-family:Baloo Bhai;
+  color:#ffffff;
+  left: 35%;
+  top:3%;
+  font-size:2.2em;
+}
+#c4-p1{
+  color:white;
+  position:absolute;
+  left: -1%;
+  top:30%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+#c4-p2{
+  color:white;
+  position:absolute;
+  left: 28%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+
+
+#content5-title{
+  position:absolute;
+  font-family:Baloo Bhai;
+  color:#000000;
+  left: 35%;
+  top:3%;
+  font-size:2.2em;
+}
+#c5-p1{
+  color:#000000;
+  position:absolute;
+  right: 37%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
+}
+#c5-p2{
+  color:#000000;
+  position:absolute;
+  right: 5%;
+  top:10%;
+  font-size: 0.8em;
+  font-family: manjari;
 }
