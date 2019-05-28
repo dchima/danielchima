@@ -10,10 +10,6 @@
   left: 44%; top: 30%;
 }.nav-title:link{text-decoration: none;}
 
-@media only screen and (max-width: 361px){
-  .nav-title{left: 3%; top: 40%;}
-
-}
 
 
 /*PAGE ONE*/
@@ -65,15 +61,6 @@
   top: 12%;
 }
 
-@media only screen and (max-width: 361px){
-  .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
-  .name{width: 91.66%; font-size: 6em; left:0%;}
-  .name-note{top:52%; left: 55%;font-size: .5em;}
-  .descr{height:20vh; left: 3%; top:45%; width: 91.66%;}
-  .descr-1{left: 25%; font-size: 1em;}
-  .descr-2{font-size: 4em; left: 9%;}
-
-}
 
 /*PAGE 2*/
 .hood{
@@ -143,21 +130,6 @@
   left: 75%;
 }
 
-@media only screen and (max-width: 361px){
-  .hood{font-size: 2em; left: 10%}
-  .portal-content-1{width: 100%; left: 0%;top: 12%;
-   padding-left: 20px;padding-right:20px;
-  font-size: 0.8em;}
-  .portal-content-2{width: 100%; left: 0%; top: 25%;
-  padding-left: 20px;padding-right:20px;
-    font-size: 0.8em;}
-  .portal-content-3{width: 100%; left:0%;top:50%;
-  padding-left: 20px;padding-right:20px;
-    font-size: 0.8em;}
-  .proj-title{top: 24%; left: 38%; font-size: 1em;}
-  .photog-title{top: 59%; left: 34%; font-size: 1em;}
-  .lit-title{top: 94%; left: 36%; font-size: 1em;}
-}
 
 
 /*ABOUT PAGE*/
@@ -184,14 +156,7 @@
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 361px){
-  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
-  transform: rotate(270deg);}
-  .about-desc{width: 75%; left: 13%; top: 45%;
-    font-size: .8em;}
-  .about-page{height: 117vh;}
 
-}
 
 /*PAGE 3*/
 
@@ -231,15 +196,6 @@
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 361px){
-  .academic{
-    font-size: 2.3em; transform: rotate(270deg);
-    left: 45%; top: -5%;
-  }
-  .academic-intro{width: 100%; left: 0%; font-size: 0.8em;
-  padding-left: 20px; padding-right: 20px; top: 15%;}
-
-}
 
 
 /*PAGE 4*/
@@ -291,19 +247,7 @@
   font-family: fredoka one, monospace;
 }
 
-@media only screen and (max-width: 361px){
-  .journey{font-size: 2.3em;transform: rotate(270deg);
-  top: -5%; left: 45%;}
-  .room4-family{left: 0%; width: 100%; height:90vh;
-  top: 15%;}
-  .room4-content{width:91.66%; top:0%;
-  left: 7%; font-size: .8em;}
-  .room4-content2{width: 91.66%; top:80%; left: 4%;
-    padding-right: 20px; text-align: center; font-size: .8em}
-  .room4-content3{width: 91.66%; top: 45%; left: 7%;
-  padding-right: 20px; font-size: .8em;}
 
-}
 
 /*PAGE 5*/
 .my-links:link{
@@ -336,10 +280,6 @@
   color: black;
 }
 
-@media only screen and (max-width: 361px){
-  .end-quote{display: none;}
-  .copyright{font-size: .6em; left: 33%;}
-}
 
 
 /*PROJECT PAGE*/

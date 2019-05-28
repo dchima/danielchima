@@ -1,0 +1,209 @@
+@media only screen and (max-width:358px){
+  /*******NAV BAR************/
+  img.logo{display: none;}
+  .about{top: 27%; left: 89%;}
+  .nav-title{left: 3%; top: 40%;}
+
+
+  /************ABOUT PAGE**********/
+  .exit{left: 85%; top: 1%;}
+  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
+  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
+  transform: rotate(270deg);}
+  .about-desc{width: 75%; left: 13%; top: 45%;
+    font-size: .8em;}
+  .about-page{height: 117vh;}
+
+
+
+  /*********PAGE ONE**************/
+  .bg1{height: 130vh;}
+  .image-1{left: 2.5%; top: 40%; width: 95%;
+  border-radius: 80px 80px 80px 80px;}
+  .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
+  .name{width: 91.66%; font-size: 5em; left:0%;}
+  .name-note{top:42%; left: 55%;font-size: .5em;}
+  .descr{height:20vh; left: 3%; top:45%; width: 91.66%;}
+  .descr-1{left: 25%; font-size: 1em;}
+  .descr-2{font-size: 4em; left: 9%;}
+
+
+
+  /********PAGE TWO*************/
+  .bg2{height: 170vh;}
+  .portal{height: 65vh; top:57%}
+  .proj-logo{width: 66.66%;left:17%; top: 0%;
+  height: 15vh}
+  .photog-logo{width: 66.66%;left:17%; top:35%;
+  height: 15vh;}
+  .lit-logo{width: 66.6%;left:17%; top:70%;
+  height: 15vh;}
+  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
+  .hood{font-size: 2em; left: 10%}
+  .portal-content-1{width: 100%; left: 0%;top: 12%;
+   padding-left: 20px;padding-right:20px;
+  font-size: 0.8em;}
+  .portal-content-2{width: 100%; left: 0%; top: 25%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .portal-content-3{width: 100%; left:0%;top:50%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .proj-title{top: 24%; left: 38%; font-size: 1em;}
+  .photog-title{top: 59%; left: 34%; font-size: 1em;}
+  .lit-title{top: 94%; left: 36%; font-size: 1em;}
+
+
+
+  /***********PAGE THREE**************/
+  .bg3{height: 160vh;}
+  .uni-logos{height: 45vh; top: 30%;}
+  .leeds{left: 24%; top: 10%;}
+  .essex{left: 70%; top: 40%;}
+  .nottingham{top:27%;left: 10%;}
+  .bhc{top:65%; left: 45%}
+  .academic{
+    font-size: 2.3em; transform: rotate(270deg);
+    left: 45%; top: -5%;
+  }
+  .academic-intro{width: 100%; left: 0%; font-size: 0.8em;
+  padding-left: 20px; padding-right: 20px; top: 15%;}
+  .menu-off{left: 2%; top: 55%; height: 40%;
+   border-radius: 10px 10px 10px 10px;}
+
+
+
+  /********PAGE FOUR***************/
+    .bg4{height: 140vh;}
+    .journey{font-size: 2.3em;transform: rotate(270deg);
+    top: -5%; left: 45%;}
+    .room4-family{left: 0%; width: 100%; height:90vh;
+    top: 15%;}
+    .room4-content{width:91.66%; top:0%;
+    left: 7%; font-size: .8em;}
+    .room4-content2{width: 91.66%; top:80%; left: 4%;
+      padding-right: 20px; text-align: center; font-size: .8em}
+    .room4-content3{width: 91.66%; top: 45%; left: 7%;
+    padding-right: 20px; font-size: .8em;}
+
+
+
+/***********PAGE FIVE**************/
+.bg5{height: 90vh;}
+.social-family{height: 40vh; top: 30%;}
+.instagram{left: 30%; top:30%;}
+.twitter{left: 50%; top:30%;}
+.linkedin{left: 70%; top:30%;}
+.youtube{left: 30%; top:60%;}
+.github{left: 50%; top:60%;}
+.mail-footer{left: 70%; top:61.5%;}
+.end-quote{display: none;}
+.copyright{font-size: .6em; left: 33%;}
+
+}
+
+
+
+@media only screen and (min-width: 359px) and (max-width:373px){
+  /*******NAV BAR************/
+  img.logo{display: none;}
+  .about{top: 27%; left: 89%;}
+  .nav-title{left: 3%; top: 40%;}
+
+
+  /************ABOUT PAGE**********/
+  .exit{left: 85%; top: 1%;}
+  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
+  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
+  transform: rotate(270deg);}
+  .about-desc{width: 75%; left: 13%; top: 45%;
+    font-size: .8em;}
+  .about-page{height: 117vh;}
+
+
+
+  /*********PAGE ONE**************/
+  .bg1{height: 130vh;}
+  .image-1{left: 2.5%; top: 40%; width: 95%;
+  border-radius: 80px 80px 80px 80px;}
+  .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
+  .name{width: 91.66%; font-size: 6em; left:0%;}
+  .name-note{top:52%; left: 55%;font-size: .5em;}
+  .descr{height:20vh; left: 3%; top:45%; width: 91.66%;}
+  .descr-1{left: 25%; font-size: 1em;}
+  .descr-2{font-size: 4em; left: 9%;}
+
+
+
+  /********PAGE TWO*************/
+  .bg2{height: 170vh;}
+  .portal{height: 65vh; top:57%}
+  .proj-logo{width: 66.66%;left:17%; top: 0%;
+  height: 15vh}
+  .photog-logo{width: 66.66%;left:17%; top:35%;
+  height: 15vh;}
+  .lit-logo{width: 66.6%;left:17%; top:70%;
+  height: 15vh;}
+  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
+  .hood{font-size: 2em; left: 10%}
+  .portal-content-1{width: 100%; left: 0%;top: 12%;
+   padding-left: 20px;padding-right:20px;
+  font-size: 0.8em;}
+  .portal-content-2{width: 100%; left: 0%; top: 25%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .portal-content-3{width: 100%; left:0%;top:50%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .proj-title{top: 24%; left: 38%; font-size: 1em;}
+  .photog-title{top: 59%; left: 34%; font-size: 1em;}
+  .lit-title{top: 94%; left: 36%; font-size: 1em;}
+
+
+
+  /***********PAGE THREE**************/
+  .bg3{height: 160vh;}
+  .uni-logos{height: 45vh; top: 30%;}
+  .leeds{left: 24%; top: 10%;}
+  .essex{left: 70%; top: 40%;}
+  .nottingham{top:27%;left: 10%;}
+  .bhc{top:65%; left: 45%}
+  .academic{
+    font-size: 2.3em; transform: rotate(270deg);
+    left: 45%; top: -5%;
+  }
+  .academic-intro{width: 100%; left: 0%; font-size: 0.8em;
+  padding-left: 20px; padding-right: 20px; top: 15%;}
+  .menu-off{left: 2%; top: 55%; height: 40%;
+   border-radius: 10px 10px 10px 10px;}
+
+
+
+  /********PAGE FOUR***************/
+    .bg4{height: 140vh;}
+    .journey{font-size: 2.3em;transform: rotate(270deg);
+    top: -5%; left: 45%;}
+    .room4-family{left: 0%; width: 100%; height:90vh;
+    top: 15%;}
+    .room4-content{width:91.66%; top:0%;
+    left: 7%; font-size: .8em;}
+    .room4-content2{width: 91.66%; top:80%; left: 4%;
+      padding-right: 20px; text-align: center; font-size: .8em}
+    .room4-content3{width: 91.66%; top: 45%; left: 7%;
+    padding-right: 20px; font-size: .8em;}
+
+
+
+/***********PAGE FIVE**************/
+.bg5{height: 90vh;}
+.social-family{height: 40vh; top: 30%;}
+.instagram{left: 30%; top:30%;}
+.twitter{left: 50%; top:30%;}
+.linkedin{left: 70%; top:30%;}
+.youtube{left: 30%; top:60%;}
+.github{left: 50%; top:60%;}
+.mail-footer{left: 70%; top:61.5%;}
+.end-quote{display: none;}
+.copyright{font-size: .6em; left: 33%;}
+
+}

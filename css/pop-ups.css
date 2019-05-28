@@ -18,11 +18,6 @@
   top: 13.5%;
 }
 
-@media only screen and (max-width: 361px){
-  .menu-off{left: 2%; top: 55%; height: 40%;
-   border-radius: 10px 10px 10px 10px;}
-}
-
 /*.academic-pic{
   position: absolute;
   background-image: url("../images/pic8-2.jpg");

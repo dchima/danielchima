@@ -41,10 +41,7 @@ img.logo{
   fill: #f3f;
 }
 
-@media only screen and (max-width: 361px){
-  img.logo{display: none;}
-  .about{top: 27%; left: 89%;}
-}
+
 
 
 /*ABOUT PAGE*/
@@ -65,12 +62,6 @@ img.profile-1{
   left: 95%;
 }
 
-
-@media only screen and (max-width: 361px){
-  .exit{left: 85%; top: 1%;}
-  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
-
-}
 
 /*PAGE PRE-WORK*/
 #room1, #room2, #room3, #room4, #room5 {
@@ -94,11 +85,6 @@ img.profile-1{
   left: 45%; top: 11%;
 }
 
-@media only screen and (max-width: 361px){
-  .bg1{height: 130vh;}
-  .image-1{left: 2.5%; top: 40%; width: 95%;
-  border-radius: 80px 80px 80px 80px;}
-}
 
 /*PAGE TWO*/
 .bg2 {
@@ -156,19 +142,6 @@ img.profile-1{
   background-color: #f9ff00;
 }
 
-@media only screen and (max-width: 361px){
-  .bg2{height: 170vh;}
-  .portal{height: 65vh; top:57%}
-
-  .proj-logo{width: 66.66%;left:17%; top: 0%;
-  height: 15vh}
-  .photog-logo{width: 66.66%;left:17%; top:35%;
-  height: 15vh;}
-  .lit-logo{width: 66.6%;left:17%; top:70%;
-  height: 15vh;}
-  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
-
-}
 
 /*PAGE THREE*/
 .bg3{
@@ -242,14 +215,6 @@ transform: translateY(-8px);
 
 }
 
-@media only screen and (max-width: 361px){
-  .bg3{height: 160vh;}
-  .uni-logos{height: 45vh; top: 30%;}
-  .leeds{left: 24%; top: 10%;}
-  .essex{left: 70%; top: 40%;}
-  .nottingham{top:27%;left: 10%;}
-  .bhc{top:65%; left: 45%}
-}
 
 
 /*PAGE FOUR*/
@@ -257,10 +222,6 @@ transform: translateY(-8px);
 
   background-color: #d3adc1;
   height: 100vh;
-}
-
-@media only screen and (max-width: 361px){
-  .bg4{height: 140vh;}
 }
 
 /*PAGE FIVE*/
@@ -331,31 +292,6 @@ transform: translateY(-8px);
 
 }.mail-footer:hover{opacity: 0.5;}
 
-@media only screen and (max-width: 361px){
-  .bg5{height: 90vh;}
-  .social-family{height: 40vh; top: 30%;}
-  .instagram{left: 30%; top:30%;}
-  .twitter{left: 50%; top:30%;}
-  .linkedin{left: 70%; top:30%;}
-  .youtube{left: 30%; top:60%;}
-  .github{left: 50%; top:60%;}
-  .mail-footer{left: 70%; top:61.5%;}
-}
-
-
-
-
-
-
-
-
-
-/*
-@media only screen and (max-device-width: 1024px) {
-  .bg1, .bg2, .bg3, .bhc, .essex, .nottingham, .leeds {
-    background-attachment: scroll;
-  }
-}*/
 
 
 @keyframes bounce {
@@ -379,11 +315,6 @@ transform: translateY(-8px);
     transform: translateY(-5px);
   }
 }
-
-
-
-
-
 
 
 /*PROJECTS HOME PAGE*/
