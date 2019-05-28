@@ -23,7 +23,7 @@
   .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
   .name{width: 91.66%; font-size: 5em; left:0%;}
   .name-note{top:50%; left: 55%;font-size: .5em;}
-  .descr{height:20vh; left: 3%; top:45%; width: 91.66%;}
+  .descr{height:20vh; left: 3%; top:43%; width: 91.66%;}
   .descr-1{left: 25%; font-size: 1em;}
   .descr-2{font-size: 4em; left: 9%;}
 
@@ -38,8 +38,8 @@
   height: 15vh;}
   .lit-logo{width: 66.6%;left:17%; top:70%;
   height: 15vh;}
-  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
-  .hood{font-size: 2em; left: 10%}
+  .proj-img, .photog-img, .lit-img{top:3%; left: 32%;}
+  .hood{font-size: 2em; left: 6%}
   .portal-content-1{width: 100%; left: 0%;top: 12%;
    padding-left: 20px;padding-right:20px;
   font-size: 0.8em;}
