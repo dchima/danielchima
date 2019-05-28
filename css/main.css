@@ -243,7 +243,7 @@ transform: translateY(-8px);
 }
 
 @media only screen and (max-width: 768px){
-  .bg3{height: 140vh;}
+  .bg3{height: 155vh;}
   .uni-logos{height: 45vh; top: 30%;}
   .leeds{left: 24%; top: 10%;}
   .essex{left: 70%; top: 40%;}

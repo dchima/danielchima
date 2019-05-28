@@ -11,7 +11,7 @@
   overflow: hidden;
   background:#000;
   border-radius: 0px 50px 100px 0px;
-  height:400px;
+  height:60%;
   width: 1px;
   opacity: 0;
   left: 16.5%;
@@ -19,7 +19,8 @@
 }
 
 @media only screen and (max-width: 768px){
-
+  .menu-off{left: 2%; top: 55%;
+   border-radius: 20px 20px 20px 20px;}
 }
 
 /*.academic-pic{

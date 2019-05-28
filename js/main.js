@@ -6,24 +6,19 @@ var pop4= false;
 $(function(){
   $('.leeds').click(function(){
     if(pop1==false){
-        if ($(window).width() < 800){
-          $('.menu').css({"opacity":"1","width":"500px","background":"#000"});
+        if ($(window).width() < 768){
+          $('.menu').css({"opacity":"1","width":"96%","background":"#000"});
           $('.menu2').css("width","0px"); pop2=false;
           $('.menu3').css("width","0px"); pop3=false;
           $('.menu4').css("width","0px"); pop4=false;
           pop1 = true;
         }else{
-          $('.menu').css({"opacity":"1","width":"900px","background":"#000"});
+          $('.menu').css({"opacity":"1","width":"66.66%","background":"#000"});
           $('.menu2').css("width","0px"); pop2=false;
           $('.menu3').css("width","0px"); pop3=false;
           $('.menu4').css("width","0px"); pop4=false;
           pop1 = true;
         }
-      /*$('.menu').css({"opacity":"1","width":"900px","background":"#000"});
-      $('.menu2').css("width","0px"); pop2=false;
-      $('.menu3').css("width","0px"); pop3=false;
-      $('.menu4').css("width","0px"); pop4=false;*/
-
     }else if(pop1==true){
       $('.menu').css("width","0px");
       pop1 = false;
@@ -34,11 +29,19 @@ $(function(){
 $(function(){
   $('.nottingham').click(function() {
     if(pop2==false){
-      $('.menu2').css({"opacity":"1","width":"900px","background":"#289ac1"});
-      $('.menu').css("width","0px"); pop1=false;
-      $('.menu3').css("width","0px"); pop3=false;
-      $('.menu4').css("width","0px"); pop4=false;
-      pop2 = true;
+      if ($(window).width() < 768){
+        $('.menu2').css({"opacity":"1","width":"96%","background":"#289ac1"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu3').css("width","0px"); pop3=false;
+        $('.menu4').css("width","0px"); pop4=false;
+        pop2 = true;
+      }else{
+        $('.menu2').css({"opacity":"1","width":"66.66%","background":"#289ac1"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu3').css("width","0px"); pop3=false;
+        $('.menu4').css("width","0px"); pop4=false;
+        pop2 = true;
+      }
     }else if(pop2==true){
       $('.menu2').css("width","0px");
       pop2 = false;
@@ -49,11 +52,19 @@ $(function(){
 $(function(){
   $('.essex').click(function() {
     if(pop3==false){
-      $('.menu3').css({"opacity":"1","width":"900px","background":"#46ed09"});
-      $('.menu').css("width","0px"); pop1=false;
-      $('.menu2').css("width","0px"); pop2=false;
-      $('.menu4').css("width","0px"); pop4=false;
-      pop3 = true;
+      if ($(window).width() < 768){
+        $('.menu3').css({"opacity":"1","width":"96%","background":"#46ed09"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu2').css("width","0px"); pop2=false;
+        $('.menu4').css("width","0px"); pop4=false;
+        pop3 = true;
+      }else{
+        $('.menu3').css({"opacity":"1","width":"66.66%","background":"#46ed09"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu2').css("width","0px"); pop2=false;
+        $('.menu4').css("width","0px"); pop4=false;
+        pop3 = true;
+      }
     }else if(pop3==true){
       $('.menu3').css("width","0px");
       pop3 = false;
@@ -64,11 +75,19 @@ $(function(){
 $(function(){
   $('.bhc').click(function() {
     if(pop4==false){
-      $('.menu4').css({"opacity":"1","width":"900px","background":"#912"});
-      $('.menu').css("width","0px"); pop1=false;
-      $('.menu2').css("width","0px"); pop2=false;
-      $('.menu3').css("width","0px"); pop3=false;
-      pop4 = true;
+      if ($(window).width() < 768){
+        $('.menu4').css({"opacity":"1","width":"96%","background":"#912"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu2').css("width","0px"); pop2=false;
+        $('.menu3').css("width","0px"); pop3=false;
+        pop4 = true;
+      }else{
+        $('.menu4').css({"opacity":"1","width":"66.66%","background":"#912"});
+        $('.menu').css("width","0px"); pop1=false;
+        $('.menu2').css("width","0px"); pop2=false;
+        $('.menu3').css("width","0px"); pop3=false;
+        pop4 = true;
+      }
     }else if(pop4==true){
       $('.menu4').css("width","0px");
       pop4 = false;
