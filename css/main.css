@@ -22,7 +22,7 @@ body, html{
   position: fixed;
   display: block;
   height: 8vh; width: 100%;
-  background-color: #ff5;
+  background-color: #e21b50;
   z-index: 1;
 }
 
@@ -75,7 +75,7 @@ img.profile-1{
 /*PAGE ONE*/
 .bg1 {
   /*background-image: url("../images/pic7-1.jpg");*/
-  background-color: #ff5;
+  background-color: #000;
   height: 100vh;
 }
 
@@ -228,7 +228,7 @@ transform: translateY(-8px);
 /*PAGE FIVE*/
 .bg5 {
   /*background-image: url("../images/pic17.jpg");*/
-  background-color: #ff5;
+  background-color: #e21b50;
    height: 100vh;
 }
 
@@ -293,7 +293,7 @@ transform: translateY(-8px);
 
 }.mail-footer:hover{opacity: 0.5;}
 
-
+.footer{background-color: #e21b50;}
 
 @keyframes bounce {
   0%,

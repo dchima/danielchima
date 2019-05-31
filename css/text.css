@@ -25,7 +25,7 @@
   position: absolute;
   font-family: fredoka one,'Source Code Pro','Inconsolata','Plaster','Bitter', monospace;
   font-size: 9em;
-  color:black /*#f61024*/;
+  color: #ff5 /*#f61024*/;
   width: 40%;
 
 
@@ -38,7 +38,7 @@
   left: 47%;
   top: 42%;
   width: 40%;
-  color: #267c0e;
+  color: #ef7502;
 }
 .descr{
   position: relative;
@@ -50,14 +50,14 @@
   position: absolute;
   font-family: fredoka one,'bungee', monospace;
   font-size: 1.1em;
-  color: black;
+  color: #ff5;
   left: 33%;
 }
 .descr-2{
   position: absolute;
   font-family: fredoka one,'bungee', monospace;
   font-size: 3.5em;
-  color: black;
+  color: #ff5;
   top: 12%;
 }
 
