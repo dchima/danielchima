@@ -17,27 +17,27 @@
 
 
   /*********PAGE ONE**************/
-  .bg1{height: 130vh;}
+  .bg1{height: 780px;;}
   .image-1{left: 2.5%; top: 40%; width: 95%;
   border-radius: 80px 80px 80px 80px;}
-  .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
+  .name-wrapper{height: 200px; width: 91.66%; left: 6%;}
   .name{width: 91.66%; font-size: 5em; left:0%;}
-  .name-note{top:42%; left: 55%;font-size: .5em;}
-  .descr{height:20vh; left: 3%; top:43%; width: 91.66%;}
+  .name-note{top:40%; left: 55%;font-size: .5em;}
+  .descr{height:120px; left: 3%; top:43%; width: 91.66%;}
   .descr-1{left: 25%; font-size: 1em;}
   .descr-2{font-size: 4em; left: 9%;}
 
 
 
   /********PAGE TWO*************/
-  .bg2{height: 170vh;}
-  .portal{height: 65vh; top:57%}
+  .bg2{height: 950px;}
+  .portal{height: 400px; top:57%}
   .proj-logo{width: 66.66%;left:17%; top: 0%;
-  height: 15vh}
+  height: 90px;}
   .photog-logo{width: 66.66%;left:17%; top:35%;
-  height: 15vh;}
+  height: 90px;}
   .lit-logo{width: 66.6%;left:17%; top:70%;
-  height: 15vh;}
+  height: 90px;}
   .proj-img, .photog-img, .lit-img{top:3%; left: 32%;}
   .hood{font-size: 2em; left: 6%}
   .portal-content-1{width: 100%; left: 0%;top: 12%;
@@ -56,8 +56,8 @@
 
 
   /***********PAGE THREE**************/
-  .bg3{height: 160vh;}
-  .uni-logos{height: 45vh; top: 30%;}
+  .bg3{height: 900px;}
+  .uni-logos{height: 250px; top: 30%;}
   .leeds{left: 24%; top: 10%;}
   .essex{left: 70%; top: 40%;}
   .nottingham{top:27%;left: 10%;}
@@ -74,10 +74,10 @@
 
 
   /********PAGE FOUR***************/
-    .bg4{height: 140vh;}
+    .bg4{height: 800px;}
     .journey{font-size: 2.3em;transform: rotate(270deg);
     top: -5%; left: 45%;}
-    .room4-family{left: 0%; width: 100%; height:90vh;
+    .room4-family{left: 0%; width: 100%; height:500px;
     top: 15%;}
     .room4-content{width:91.66%; top:0%;
     left: 7%; font-size: .8em;}
@@ -89,8 +89,8 @@
 
 
 /***********PAGE FIVE**************/
-.bg5{height: 90vh;}
-.social-family{height: 40vh; top: 30%;}
+.bg5{height: 470px;}
+.social-family{height: 180px; top: 25%;}
 .instagram{left: 30%; top:30%;}
 .twitter{left: 50%; top:30%;}
 .linkedin{left: 70%; top:30%;}
@@ -99,6 +99,8 @@
 .mail-footer{left: 70%; top:61.5%;}
 .end-quote{display: none;}
 .copyright{font-size: .6em; left: 33%;}
+
+  /***********HEIGHT RESPONSE************/
 
 }
 
@@ -123,27 +125,27 @@
 
 
   /*********PAGE ONE**************/
-  .bg1{height: 130vh;}
+  .bg1{height: 790px;}
   .image-1{left: 2.5%; top: 40%; width: 95%;
   border-radius: 80px 80px 80px 80px;}
-  .name-wrapper{height: 30vh; width: 91.66%; left: 6%;}
+  .name-wrapper{height: 200px; width: 91.66%; left: 6%;}
   .name{width: 91.66%; font-size: 6em; left:0%;}
   .name-note{top:55%; left: 55%;font-size: .5em;}
-  .descr{height:20vh; left: 3%; top:45%; width: 91.66%;}
+  .descr{height:120px; left: 3%; top:45%; width: 91.66%;}
   .descr-1{left: 25%; font-size: 1em;}
   .descr-2{font-size: 4em; left: 9%;}
 
 
 
   /********PAGE TWO*************/
-  .bg2{height: 170vh;}
-  .portal{height: 65vh; top:57%}
+  .bg2{height: 970px;}
+  .portal{height: 400px; top:57%}
   .proj-logo{width: 66.66%;left:17%; top: 0%;
-  height: 15vh}
+  height: 90px}
   .photog-logo{width: 66.66%;left:17%; top:35%;
-  height: 15vh;}
+  height: 90px;}
   .lit-logo{width: 66.6%;left:17%; top:70%;
-  height: 15vh;}
+  height: 90px;}
   .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
   .hood{font-size: 2em; left: 10%}
   .portal-content-1{width: 100%; left: 0%;top: 12%;
@@ -162,8 +164,8 @@
 
 
   /***********PAGE THREE**************/
-  .bg3{height: 160vh;}
-  .uni-logos{height: 45vh; top: 30%;}
+  .bg3{height: 1200px;}
+  .uni-logos{height: 250px; top: 30%;}
   .leeds{left: 24%; top: 10%;}
   .essex{left: 70%; top: 40%;}
   .nottingham{top:27%;left: 10%;}
@@ -180,10 +182,10 @@
 
 
   /********PAGE FOUR***************/
-    .bg4{height: 140vh;}
+    .bg4{height: 900px;}
     .journey{font-size: 2.3em;transform: rotate(270deg);
     top: -5%; left: 45%;}
-    .room4-family{left: 0%; width: 100%; height:90vh;
+    .room4-family{left: 0%; width: 100%; height:600px;
     top: 15%;}
     .room4-content{width:91.66%; top:0%;
     left: 7%; font-size: .8em;}
@@ -195,8 +197,8 @@
 
 
 /***********PAGE FIVE**************/
-.bg5{height: 90vh;}
-.social-family{height: 40vh; top: 30%;}
+.bg5{height: 540px;}
+.social-family{height: 200px; top: 30%;}
 .instagram{left: 30%; top:30%;}
 .twitter{left: 50%; top:30%;}
 .linkedin{left: 70%; top:30%;}
@@ -205,5 +207,189 @@
 .mail-footer{left: 70%; top:61.5%;}
 .end-quote{display: none;}
 .copyright{font-size: .6em; left: 33%;}
+
+ /***********HEIGHT RESPONSE************/
+
+}
+
+@media only screen and (min-width: 375px) and (max-width:416px){
+
+  /*******NAV BAR************/
+  img.logo{display: none;}
+  .about{top: 27%; left: 89%;}
+  .nav-title{left: 3%; top: 40%;}
+
+
+  /************ABOUT PAGE**********/
+  .exit{left: 85%; top: 1%;}
+  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
+  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
+  transform: rotate(270deg);}
+  .about-desc{width: 75%; left: 13%; top: 45%;
+    font-size: .8em;}
+  .about-page{height: 117vh;}
+
+
+
+  /*********PAGE ONE**************/
+  .bg1{height: 920px;}
+  .image-1{left: 2.5%; top: 40%; width: 95%;
+  border-radius: 80px 80px 80px 80px;}
+  .name-wrapper{height: 220px; width: 91.66%; left: 6%;}
+  .name{width: 91.66%; font-size: 6em; left:0%;}
+  .name-note{top:45%; left: 55%;font-size: .5em;}
+  .descr{height:250px; left: 9%; top:45%; width: 75%;}
+  .descr-1{left: 25%; font-size: 1em;}
+  .descr-2{font-size: 4em; left: 9%;}
+
+
+
+  /********PAGE TWO*************/
+  .bg2{height: 1000px;}
+  .portal{height: 400px; top:57%}
+  .proj-logo{width: 66.66%;left:17%; top: 0%;
+  height: 90px;}
+  .photog-logo{width: 66.66%;left:17%; top:35%;
+  height: 90px;}
+  .lit-logo{width: 66.6%;left:17%; top:70%;
+  height: 90px;}
+  .proj-img, .photog-img, .lit-img{top:10%; left: 34%;}
+  .hood{font-size: 2em; left: 10%}
+  .portal-content-1{width: 100%; left: 0%;top: 12%;
+   padding-left: 20px;padding-right:20px;
+  font-size: 0.8em;}
+  .portal-content-2{width: 100%; left: 0%; top: 25%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .portal-content-3{width: 100%; left:0%;top:47%;
+  padding-left: 20px;padding-right:20px;
+    font-size: 0.8em;}
+  .proj-title{top: 24%; left: 38%; font-size: 1em;}
+  .photog-title{top: 59%; left: 34%; font-size: 1em;}
+  .lit-title{top: 94%; left: 36%; font-size: 1em;}
+
+
+  /***********PAGE THREE**************/
+  .bg3{height: 900px;}
+  .uni-logos{height: 250px; top: 30%;}
+  .leeds{left: 24%; top: 10%;}
+  .essex{left: 70%; top: 40%;}
+  .nottingham{top:27%;left: 10%;}
+  .bhc{top:65%; left: 45%}
+  .academic{
+    font-size: 2.3em; transform: rotate(270deg);
+    left: 45%; top: -5%;
+  }
+  .academic-intro{width: 100%; left: 0%; font-size: 0.8em;
+  padding-left: 20px; padding-right: 20px; top: 14%;}
+  .menu-off{left: 2%; top: 55%; height: 40%;
+   border-radius: 10px 10px 10px 10px;}
+
+
+
+  /********PAGE FOUR***************/
+    .bg4{height: 800px;}
+    .journey{font-size: 2.3em;transform: rotate(270deg);
+    top: -5%; left: 45%;}
+    .room4-family{left: 0%; width: 100%; height: 500px;
+    top: 15%;}
+    .room4-content{width:91.66%; top:0%;
+    left: 7%; font-size: .8em;}
+    .room4-content2{width: 91.66%; top:80%; left: 4%;
+      padding-right: 20px; text-align: center; font-size: .8em}
+    .room4-content3{width: 91.66%; top: 45%; left: 7%;
+    padding-right: 20px; font-size: .8em;}
+
+
+
+/***********PAGE FIVE**************/
+.bg5{height: 800px;}
+.social-family{height: 180px; top: 20%;}
+.instagram{left: 30%; top:30%;}
+.twitter{left: 50%; top:30%;}
+.linkedin{left: 70%; top:30%;}
+.youtube{left: 30%; top:60%;}
+.github{left: 50%; top:60%;}
+.mail-footer{left: 70%; top:61.5%;}
+.end-quote{display: none;}
+.copyright{font-size: .6em; left: 33%;}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width:800px){
+
+  /*******NAV BAR************/
+  img.logo{display: none;}
+  .about{top: 27%; left: 89%;}
+  .nav-title{left: 3%; top: 40%;}
+
+
+  /************ABOUT PAGE**********/
+  .exit{left: 85%; top: 1%;}
+  img.profile-1{ top: 10%; left: 17.5%;  width:65%; height: auto;}
+  .hey{top:-5.9%;left: 25%; font-size: 2.5em;
+  transform: rotate(270deg);}
+  .about-desc{width: 75%; left: 13%; top: 45%;
+    font-size: .8em;}
+  .about-page{height: 117vh;}
+
+
+
+  /*********PAGE ONE**************/
+  .bg1{height: 780px;}
+  .image-1{left: 15%; top: 40%; width: 68%;
+  border-radius: 80px 80px 80px 80px;}
+  .name-wrapper{height: 200px; width: 55%; left: 30%;}
+  .name{width: 91.66%; font-size: 6em; left:0%;}
+  .name-note{top:50%; left: 37%;font-size: .5em;}
+  .descr{height:120px; left: 0%; top:55%; width: 100%;}
+  .descr-1{left: 35%; font-size: 1em;}
+  .descr-2{font-size: 3.5em; left: 3%;}
+
+
+
+  /********PAGE TWO*************/
+  .bg2{height: 800px;}
+  .portal{height: 270px; top:60%}
+  .hood{font-size: 3em; left: 23%}
+  .portal-content-1{top: 18%; font-size: 0.8em;}
+  .portal-content-2{top: 18%;left: 40%;font-size: 0.8em;}
+  .portal-content-3{top: 18%;left: 70%;font-size: 0.8em;}
+  .proj-title{top: 44%; left: 13%; font-size: 1em;}
+  .photog-title{top: 44%; left: 41%; font-size: 1em;}
+  .lit-title{top: 44%; left: 72%; font-size: 1em;}
+
+
+  /***********PAGE THREE**************/
+
+  .bg3{height: 550px;}
+  .uni-logos{width:100%; top: 69%;}
+  .leeds{left: 10%;}
+  .essex{left: 40%;}
+  .nottingham{left: 59%; top: -30%;}
+  .bhc{left: 85%; top:0.5%}
+  .academic{
+    font-size: 3em; left: 5%; top: 20%;}
+  .academic-intro{font-size: 0.8em;}
+  .menu-off{left: 10%; height: 70%; top: 10%;
+   border-radius: 10px 10px 10px 10px;}
+
+
+  /********PAGE FOUR***************/
+    .bg4{height: 600px;}
+    .journey{font-size: 3em;transform: rotate(270deg);
+    top: -5%; left: 45%;}
+    .room4-family{left: 0%; width: 100%; height:40vh;
+    top: 25%;}
+
+
+
+
+/***********PAGE FIVE**************/
+.bg5{height: 900px;}
+.social-family{height: 60px; top: 25%;}
+.end-quote{left: 0%; width: 100%; font-size: 3.5em;
+  text-align: center; top: 25%;}
+.copyright{font-size: .6em; left: 42%;}
 
 }

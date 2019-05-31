@@ -5,7 +5,7 @@ var pop4= false;
 
 $(function(){
   $('.leeds').click(function(){
-    if(pop1==false){
+    if(!pop1){
         if ($(window).width() < 361){
           $('.menu').css({"opacity":"1","width":"96%","background":"#000"});
           $('.menu2').css("width","0px"); pop2=false;
@@ -19,7 +19,7 @@ $(function(){
           $('.menu4').css("width","0px"); pop4=false;
           pop1 = true;
         }
-    }else if(pop1==true){
+    }else if(pop1){
       $('.menu').css("width","0px");
       pop1 = false;
     }
@@ -28,7 +28,7 @@ $(function(){
 
 $(function(){
   $('.nottingham').click(function() {
-    if(pop2==false){
+    if(!pop2){
       if ($(window).width() < 361){
         $('.menu2').css({"opacity":"1","width":"96%","background":"#289ac1"});
         $('.menu').css("width","0px"); pop1=false;
@@ -42,7 +42,7 @@ $(function(){
         $('.menu4').css("width","0px"); pop4=false;
         pop2 = true;
       }
-    }else if(pop2==true){
+    }else if(pop2){
       $('.menu2').css("width","0px");
       pop2 = false;
     }
@@ -51,7 +51,7 @@ $(function(){
 
 $(function(){
   $('.essex').click(function() {
-    if(pop3==false){
+    if(!pop3){
       if ($(window).width() < 361){
         $('.menu3').css({"opacity":"1","width":"96%","background":"#46ed09"});
         $('.menu').css("width","0px"); pop1=false;
@@ -65,7 +65,7 @@ $(function(){
         $('.menu4').css("width","0px"); pop4=false;
         pop3 = true;
       }
-    }else if(pop3==true){
+    }else if(pop3){
       $('.menu3').css("width","0px");
       pop3 = false;
     }
@@ -74,7 +74,7 @@ $(function(){
 
 $(function(){
   $('.bhc').click(function() {
-    if(pop4==false){
+    if(!pop4){
       if ($(window).width() < 361){
         $('.menu4').css({"opacity":"1","width":"96%","background":"#912"});
         $('.menu').css("width","0px"); pop1=false;
@@ -88,7 +88,7 @@ $(function(){
         $('.menu3').css("width","0px"); pop3=false;
         pop4 = true;
       }
-    }else if(pop4==true){
+    }else if(pop4){
       $('.menu4').css("width","0px");
       pop4 = false;
     }
@@ -97,7 +97,7 @@ $(function(){
 
 $(function(){
   $(window).resize(function(){
-    if(pop1==true){
+    if(pop1){
       if ($(window).width() < 362){
         $('.menu').css({"opacity":"1","width":"96%","background":"#000"});
       }else if($(window).width() > 362){
@@ -122,7 +122,6 @@ $(function(){
         $('.menu4').css({"opacity":"1","width":"66.66%","background":"#912"});
       }
     }
-    console.log(pop1,pop2,pop3,pop4);
   });
 
 });
